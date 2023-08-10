@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Thu, 10 Aug 2023 10:11:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Thu, 10 Aug 2023 10:25:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Multi-Dimensional-Scaling-(MDS)"&gt;Multi-Dimensional Scaling (MDS)&lt;a class="anchor-link" href="https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/#Multi-Dimensional-Scaling-(MDS)"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
@@ -15078,37 +15078,15 @@ MDA=" type="video/mp4"&gt;&lt;/source&gt;
 &lt;li&gt;$n$ : # of samples.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;$100 \times S$로 구한 값에 따라 다음으로 representation이 잘되었는지를 평가.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align:center"&gt;$100 \times S$&lt;/th&gt;
-&lt;th style="text-align:center"&gt;Goodness of fit&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align:center"&gt;[ 20%,100.0%]&lt;/td&gt;
-&lt;td style="text-align:center"&gt;poor (not worth doing)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:center"&gt;[ 10%, 20.0%)&lt;/td&gt;
-&lt;td style="text-align:center"&gt;fair&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:center"&gt;[  5%, 10.0%)&lt;/td&gt;
-&lt;td style="text-align:center"&gt;good&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:center"&gt;[2.5%,  5.0%)&lt;/td&gt;
-&lt;td style="text-align:center"&gt;excellent&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align:center"&gt;[  0%,  2.5%)&lt;/td&gt;
-&lt;td style="text-align:center"&gt;perfect&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;{: .table table-bordered .table-striped}&lt;/p&gt;
+&lt;div class="table"&gt;
+| $100 \times S$   | Goodness of fit |
+| :---: | :---: |
+| \[ 20%,100.0%\] | poor (not worth doing) |
+| \[ 10%, 20.0%\) | fair |
+| \[  5%, 10.0%\) | good |
+| \[2.5%,  5.0%\) | excellent |
+| \[  0%,  2.5%\) | perfect |
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
