@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Thu, 10 Aug 2023 10:31:47 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Thu, 10 Aug 2023 11:37:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Multi-Dimensional-Scaling-(MDS)"&gt;Multi-Dimensional Scaling (MDS)&lt;a class="anchor-link" href="https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/#Multi-Dimensional-Scaling-(MDS)"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
@@ -15108,6 +15108,39 @@ MDA=" type="video/mp4"&gt;&lt;/source&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered" id="cell-id=7400052c"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [53]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class="highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;X_reduced&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mds&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X_new&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="c1"&gt;# error! MDS does not support transform! (MDS는 새로운 데이터에선 의미가 없기 쉬움.)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_text output_error"&gt;
+&lt;pre&gt;
+&lt;span class="ansi-red-fg"&gt;---------------------------------------------------------------------------&lt;/span&gt;
+&lt;span class="ansi-red-fg"&gt;AttributeError&lt;/span&gt;                            Traceback (most recent call last)
+Cell &lt;span class="ansi-green-fg"&gt;In[53], line 9&lt;/span&gt;
+&lt;span class="ansi-green-intense-fg ansi-bold"&gt;      1&lt;/span&gt; import sklearn.datasets as ds
+&lt;span class="ansi-green-intense-fg ansi-bold"&gt;      3&lt;/span&gt; X_new, gt_new = ds.make_swiss_roll(
+&lt;span class="ansi-green-intense-fg ansi-bold"&gt;      4&lt;/span&gt;     n_samples = 1000,
+&lt;span class="ansi-green-intense-fg ansi-bold"&gt;      5&lt;/span&gt;     noise = 0.2,
+&lt;span class="ansi-green-intense-fg ansi-bold"&gt;      6&lt;/span&gt;     random_state = 23 
+&lt;span class="ansi-green-intense-fg ansi-bold"&gt;      7&lt;/span&gt; )
+&lt;span class="ansi-green-fg"&gt;----&amp;gt; 9&lt;/span&gt; X_reduced = mds.transform(X_new)
+
+&lt;span class="ansi-red-fg"&gt;AttributeError&lt;/span&gt;: 'MDS' object has no attribute 'transform'&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
