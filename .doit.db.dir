@@ -135,3 +135,4 @@
 'render_sources:output/posts/multi-dimensional-scaling-mds/index.ipynb', (113664, 291)
 'render_posts:cache/posts/multi-dimensional-scaling-mds.html', (119296, 426)
 'latex_formula_renderer', (119808, 56)
+'copy_assets:output/assets/css/post_ipynb.css', (120320, 305)
