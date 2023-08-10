@@ -74,6 +74,7 @@ div.output_subarea {
 }
 
 /*=====================================*/
+/*
 body {
   font: 90%/1.4 system-ui;
   margin: 0;
@@ -112,6 +113,7 @@ aside {
     order: 2;
   }
 }
+*/
 table {
   border-collapse: collapse;
   border: 0;
