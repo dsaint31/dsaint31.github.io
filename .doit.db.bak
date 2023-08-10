@@ -10,7 +10,7 @@
 'post_render', (7680, 56)
 'render_listings', (8192, 56)
 'render_site', (8704, 56)
-'sitemap:output/sitemap.xml', (101888, 1416)
+'sitemap:output/sitemap.xml', (101888, 1417)
 'robots_file', (10240, 56)
 'copy_assets:output/assets/js/justified-layout.min.js', (10752, 470)
 'scale_images', (11264, 56)
