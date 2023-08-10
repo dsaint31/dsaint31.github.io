@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Thu, 10 Aug 2023 09:59:51 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Thu, 10 Aug 2023 10:02:13 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Multi-Dimensional-Scaling-(MDS)"&gt;Multi-Dimensional Scaling (MDS)&lt;a class="anchor-link" href="https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/#Multi-Dimensional-Scaling-(MDS)"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
@@ -22,7 +22,7 @@
 &lt;li&gt;모든 pairwise distance를 matrix $D$로 만들고&lt;/li&gt;
 &lt;li&gt;변환된 공간에서도 최대한 pairwise distance가 $D$와 유사하도록 하는 mapping function을 구함.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$\underset{Y}\argmin \sum_{i&amp;lt;j}(\|\textbf{y}_i-\textbf{y}_j\|^2_2-\sigma_{ij})^2$$&lt;/p&gt;
+&lt;p&gt;$$\underset{Y}\text{argmin} \sum_{i&amp;lt;j}(\|\textbf{y}_i-\textbf{y}_j\|^2_2-\sigma_{ij})^2$$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$\sigma_{ij}$ : $\textbf{x}_i$와 $\textbf{x}_j$간의 거리.&lt;/li&gt;
