@@ -10,6 +10,12 @@
 <li>Dimensionality Reduction</li>
 <li>Projection based algorithm but non-linear</li>
 </ul>
+<p>고차원의 vector를 2~3차원으로 줄이는 data visualization embedding 방법의 선구자에 해당함.</p>
+<ul>
+<li>MDS의 개념에서 distance를 <em><strong>geodesic distance</strong></em> 로 바꾸어 개선한 알고리즘이 <code>isomap</code> (Isometric Feature Mapping)임.</li>
+<li>MDS의 개념을 기반으로 locality에 좀더 초점을 맞춘 방법이 <code>LLE</code> (Local Linear Embedding)임.</li>
+</ul>
+<p>ref. : Kruskal, J. B. (1964). Multidimensional scaling by optimizing goodness of fit to a nonmetric hypothesis. Psychometrika, 29(1), 1-27.</p>
 </div>
 </div>
 </div>
@@ -21,7 +27,7 @@
 <li>모든 pairwise distance를 matrix $D$로 만들고</li>
 <li>변환된 공간에서도 최대한 pairwise distance가 $D$와 유사하도록 하는 mapping function을 구함.</li>
 </ul>
-<p>$$\underset{Y}{\text{argmin}} \sum_{i&lt;j}(\|\textbf{y}_i-\textbf{y}_j\|^2_2-\sigma_{ij})^2$$</p>
+<p>$$\underset{Y}{\text{argmin}} \sum_{i&lt;j}(\|\textbf{y}_i-\textbf{y}_j\|_2-\sigma_{ij})^2$$</p>
 <p>where</p>
 <ul>
 <li>$\sigma_{ij}$ : $\textbf{x}_i$와 $\textbf{x}_j$간의 거리.</li>
