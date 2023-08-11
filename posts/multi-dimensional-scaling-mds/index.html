@@ -12,6 +12,7 @@
             <script src="../../assets/js/respond.min.js"></script>
         <![endif]--><meta name="author" content="dsaint31">
 <link rel="prev" href="../pca-of-scikit-learn/" title="PCA of scikit learn" type="text/html">
+<link rel="next" href="../isometric-featue-mapping-isomap/" title="Isometric Featue Mapping (Isomap)" type="text/html">
 <link rel="stylesheet" href="../../assets/css/post_ipynb.css">
 </head>
 <body>
@@ -77,6 +78,12 @@
 <li>Dimensionality Reduction</li>
 <li>Projection based algorithm but non-linear</li>
 </ul>
+<p>고차원의 vector를 2~3차원으로 줄이는 data visualization embedding 방법의 선구자에 해당함.</p>
+<ul>
+<li>MDS의 개념에서 distance를 <em><strong>geodesic distance</strong></em> 로 바꾸어 개선한 알고리즘이 <code>isomap</code> (Isometric Feature Mapping)임.</li>
+<li>MDS의 개념을 기반으로 locality에 좀더 초점을 맞춘 방법이 <code>LLE</code> (Local Linear Embedding)임.</li>
+</ul>
+<p>ref. : Kruskal, J. B. (1964). Multidimensional scaling by optimizing goodness of fit to a nonmetric hypothesis. Psychometrika, 29(1), 1-27.</p>
 </div>
 </div>
 </div>
@@ -92,7 +99,7 @@
 <li>모든 pairwise distance를 matrix $D$로 만들고</li>
 <li>변환된 공간에서도 최대한 pairwise distance가 $D$와 유사하도록 하는 mapping function을 구함.</li>
 </ul>
-<p>$$\underset{Y}{\text{argmin}} \sum_{i&lt;j}(\|\textbf{y}_i-\textbf{y}_j\|^2_2-\sigma_{ij})^2$$</p>
+<p>$$\underset{Y}{\text{argmin}} \sum_{i&lt;j}(\|\textbf{y}_i-\textbf{y}_j\|_2-\sigma_{ij})^2$$</p>
 <p>where</p>
 <ul>
 <li>$\sigma_{ij}$ : $\textbf{x}_i$와 $\textbf{x}_j$간의 거리.</li>
@@ -15254,9 +15261,17 @@ Cell <span class="ansi-green-fg">In[53], line 9</span>
 </div>
 </div>
     </div>
-    <aside class="postpromonav"><nav><ul class="pager">
+    <aside class="postpromonav"><nav><div itemprop="keywords" class="tags">
+            <a class="tag p-category btn btn-success btn-raised btn-sm" href="../../categories/dimensionality-reduction/" rel="tag">dimensionality reduction</a>
+            <a class="tag p-category btn btn-success btn-raised btn-sm" href="../../categories/machine-learning/" rel="tag">machine learning</a>
+        </div>
+
+            <ul class="pager">
 <li class="previous">
                 <a href="../pca-of-scikit-learn/" rel="prev" title="PCA of scikit learn">이전 포스트</a>
+            </li>
+            <li class="next">
+                <a href="../isometric-featue-mapping-isomap/" rel="next" title="Isometric Featue Mapping (Isomap)">다음 포스트</a>
             </li>
         </ul></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha384-3lJUsx1TJHt7BA4udB5KPnDrlkO8T6J6v/op7ui0BbCjvZ9WqV4Xm6DTP6kQ/iBH" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
 MathJax.Hub.Config({

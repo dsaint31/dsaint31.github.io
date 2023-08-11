@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Thu, 10 Aug 2023 11:37:08 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dsaint31's blog</title><link>https://dsaint31.github.io/</link><description>...</description><atom:link href="https://dsaint31.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>ko</language><copyright>Contents © 2023 &lt;a href="mailto:dsaint31@gmail.com"&gt;dsaint31&lt;/a&gt; </copyright><lastBuildDate>Fri, 11 Aug 2023 03:36:53 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Isometric Featue Mapping (Isomap)</title><link>https://dsaint31.github.io/posts/isometric-featue-mapping-isomap/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=664e5f21"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;이곳에 글을 작성하세요.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><category>dimensionality reduction</category><category>machine learning</category><guid>https://dsaint31.github.io/posts/isometric-featue-mapping-isomap/</guid><pubDate>Fri, 11 Aug 2023 03:09:32 GMT</pubDate></item><item><title>Multi-Dimensional Scaling (MDS)</title><link>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=b38ba779"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Multi-Dimensional-Scaling-(MDS)"&gt;Multi-Dimensional Scaling (MDS)&lt;a class="anchor-link" href="https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/#Multi-Dimensional-Scaling-(MDS)"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;blockquote&gt;
@@ -11,6 +17,12 @@
 &lt;li&gt;Dimensionality Reduction&lt;/li&gt;
 &lt;li&gt;Projection based algorithm but non-linear&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;고차원의 vector를 2~3차원으로 줄이는 data visualization embedding 방법의 선구자에 해당함.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MDS의 개념에서 distance를 &lt;em&gt;&lt;strong&gt;geodesic distance&lt;/strong&gt;&lt;/em&gt; 로 바꾸어 개선한 알고리즘이 &lt;code&gt;isomap&lt;/code&gt; (Isometric Feature Mapping)임.&lt;/li&gt;
+&lt;li&gt;MDS의 개념을 기반으로 locality에 좀더 초점을 맞춘 방법이 &lt;code&gt;LLE&lt;/code&gt; (Local Linear Embedding)임.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ref. : Kruskal, J. B. (1964). Multidimensional scaling by optimizing goodness of fit to a nonmetric hypothesis. Psychometrika, 29(1), 1-27.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -22,7 +34,7 @@
 &lt;li&gt;모든 pairwise distance를 matrix $D$로 만들고&lt;/li&gt;
 &lt;li&gt;변환된 공간에서도 최대한 pairwise distance가 $D$와 유사하도록 하는 mapping function을 구함.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$\underset{Y}{\text{argmin}} \sum_{i&amp;lt;j}(\|\textbf{y}_i-\textbf{y}_j\|^2_2-\sigma_{ij})^2$$&lt;/p&gt;
+&lt;p&gt;$$\underset{Y}{\text{argmin}} \sum_{i&amp;lt;j}(\|\textbf{y}_i-\textbf{y}_j\|_2-\sigma_{ij})^2$$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$\sigma_{ij}$ : $\textbf{x}_i$와 $\textbf{x}_j$간의 거리.&lt;/li&gt;
@@ -15162,7 +15174,7 @@ Cell &lt;span class="ansi-green-fg"&gt;In[53], line 9&lt;/span&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</guid><pubDate>Thu, 10 Aug 2023 08:30:47 GMT</pubDate></item><item><title>PCA of scikit learn</title><link>https://dsaint31.github.io/posts/pca-of-scikit-learn/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=a6593f29"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;</description><category>dimensionality reduction</category><category>machine learning</category><guid>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</guid><pubDate>Thu, 10 Aug 2023 08:30:47 GMT</pubDate></item><item><title>PCA of scikit learn</title><link>https://dsaint31.github.io/posts/pca-of-scikit-learn/</link><dc:creator>dsaint31</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered" id="cell-id=a6593f29"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h2 id="Principal-Component-Analysis"&gt;Principal Component Analysis&lt;a class="anchor-link" href="https://dsaint31.github.io/posts/pca-of-scikit-learn/#Principal-Component-Analysis"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;demensionality reduction 기법 중 가장 대표적인 알고리즘.&lt;/p&gt;

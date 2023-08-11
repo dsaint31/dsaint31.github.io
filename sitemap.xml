@@ -15,11 +15,19 @@
  </url>
  <url>
   <loc>https://dsaint31.github.io/archive.html</loc>
-  <lastmod>2023-08-10T09:54:00Z</lastmod>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://dsaint31.github.io/categories/</loc>
-  <lastmod>2023-08-10T03:24:00Z</lastmod>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dsaint31.github.io/categories/dimensionality-reduction/</loc>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dsaint31.github.io/categories/machine-learning/</loc>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://dsaint31.github.io/galleries/</loc>
@@ -28,6 +36,10 @@
  <url>
   <loc>https://dsaint31.github.io/listings/</loc>
   <lastmod>2023-08-10T03:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://dsaint31.github.io/posts/isometric-featue-mapping-isomap/</loc>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
  </url>
  <url>
   <loc>https://dsaint31.github.io/posts/multi-dimensional-scaling-mds/</loc>

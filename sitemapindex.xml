@@ -6,15 +6,23 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://dsaint31.github.io/categories/dimensionality-reduction.xml</loc>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://dsaint31.github.io/categories/machine-learning.xml</loc>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://dsaint31.github.io/galleries/rss.xml</loc>
-  <lastmod>2023-08-10T09:54:00Z</lastmod>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://dsaint31.github.io/rss.xml</loc>
-  <lastmod>2023-08-10T09:43:00Z</lastmod>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://dsaint31.github.io/sitemap.xml</loc>
-  <lastmod>2023-08-10T09:54:00Z</lastmod>
+  <lastmod>2023-08-11T03:36:00Z</lastmod>
  </sitemap>
 </sitemapindex>
