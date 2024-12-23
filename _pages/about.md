@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 last_modified_at: 2024-12-23T10:59:26-04:00
-toc: true
 ---
 
 수학적 부분들 위주로 정리를 해보려고 하는데....
