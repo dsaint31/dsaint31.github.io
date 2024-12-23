@@ -13,8 +13,6 @@ ruby가 익숙치 않다보니 mkdocs 가 더 선호되지만,
 
 ## test
 
-[math-logic]: {{"" | relative_url }}{% post_url 2024-12-22-math-logic}
-
 ---
 
 ## Favorites
