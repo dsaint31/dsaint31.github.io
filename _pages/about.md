@@ -1,7 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "다시 Jekyll을 써보는 url."
 last_modified_at: 2024-12-23T10:59:26-04:00
 toc: true
 ---
