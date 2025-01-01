@@ -103,8 +103,10 @@ $$
 > Indefinite Integral에 양 끝점을 대입하여 구하는 방법을 제시.  
 > ← indefinite integral로 definite integral을 구함
 
+
 ---
 
 ## References
 
+* [Week03](/math/math-week03/)
 
