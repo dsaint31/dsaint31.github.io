@@ -1,10 +1,10 @@
 ---
-title: [Math] Limit (Summary)
+title: "[Math] Limit (Summary)"
 last_modified_at: 2025-01-01 23:24:15
 categories:
   - Math
 tags:
-  - 
+  - Limit
 ---
 
 # Limit 이란?
