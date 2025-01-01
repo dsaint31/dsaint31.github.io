@@ -25,5 +25,5 @@ tags:
 * $a^{-n}=\frac{1}{a}$: $a \ne 0$
 * $a^m a^n=a^{m+n}$
 * $\frac{a^m}{a^n}=a^{m-n}$
-* $(a^m)^}$
+* $(a^m)^n=a^{mn}$
 * $(x \times y)^n=x^ny^n$
