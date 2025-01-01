@@ -9,7 +9,7 @@ tags:
 
 ## Propositions
 
-### Conditions
+#### Conditions
 
 variable에 따라 True, False 가 달라지는 expression.
 
@@ -22,7 +22,7 @@ $$x^2 = 4$$
 * true proposition: 항상 true.
 * false proposition: 항상 false.
 
-### Truth Sets
+#### Truth Sets
 
 어떤 condition을 만족하는 element들로 구성된 set.
 
@@ -32,11 +32,11 @@ condition이 정해지면, truth set이 지정됨.
 
 ## Logical Operations
 
-Unary Operations
+**Unary Operations**
 
 * $\neg$ : Logical Negation
 
-Binary Operations
+**Binary Operations**
 
 * $\land$ : Logical Conjunction (= `and`)
 * $\lor$ : Logical Disjunction (= `or`)
@@ -45,9 +45,13 @@ Binary Operations
 
 참고: [Truth Table](https://dsaint31.me/mkdocs_site/CE/ch01/ch01_13_boolean_algebra/#symbols-and-truth-table)
 
-### Logical Implications
+#### Logical Implications
 
 Truth Table of Logical Implication
+
+> cause $p$가 False 경우 무조건 True임.
+>
+> 무죄 추정의 원칙?
 
 $$p \implies q$$
 
@@ -58,10 +62,10 @@ $$p \implies q$$
 | True | False | False |
 | True | True | True |
 
-### Sufficiency and Necessity
+#### Sufficiency and Necessity
 참고: [Sufficiency and Necessity](https://dsaint31.tistory.com/314)
 
-### Converse, Contrapositive, Inverse
+#### Converse, Contrapositive, Inverse
 
 $$p \implies q$$
 
@@ -71,21 +75,21 @@ $$p \implies q$$
 
 ## All and Existent
 
-### For All $\forall$
+#### For All $\forall$
 
 $\forall x, p$: 모든 $x$ 에 대해 $p$가 만족함.
 
 * $\forall x, 0x = 0$
 * $\forall x \text{ except }x=0, x\frac{1}{x}=1$
 
-### There Exists $\exists$
+#### There Exists $\exists$
 
 $\exists x, q$: 최소한 하나 이상의 $x$에서 $q$가 만족함.
 
 * $\exists x, x+3 = 0$
 * $\exists x, x^2=1$
 
-### Identities and Inverses
+#### Identities and Inverses
 
 Additive Identities and Inverse
 
@@ -97,17 +101,23 @@ $$\begin{aligned} \forall x \text{ except } x=0, \exists a, xa=x &\implies a=1 \
 
 ## Logical Computations
 
-### Commutativity
+#### Commutativity
+
+교환법칙
 
 * $p \land q \iff q \land p$
 * $p \lor q \iff q \land p$
 
-### Associativity
+#### Associativity
+
+결합법칙
 
 * $(p \land q) \land r \iff p \land (q \land r)$
 * $(p \lor q) \lor r \iff p \lor (q \lor r)$
 
-### Distributivity
+#### Distributivity
+
+분배접칙
 
 * $p \land (q \lor r) \iff (p \land q) \lor (p \land r)$
 * $p \lor (q \land r) \iff (p \lor q) \land (p \lor r)$
@@ -115,4 +125,11 @@ $$\begin{aligned} \forall x \text{ except } x=0, \exists a, xa=x &\implies a=1 \
 * $(p \implies q) \iff (\neg q \implies \neg p)$
 * $(p \oplus q) \iff [\{p \land (\neg q)\} \lor \{ (\neg p) \land q \} ]$
 
-참고: [De Morgan's Law](https://dsaint31.me/mkdocs_site/CE/ch01/ch01_13_boolean_algebra/#de-morgans-law)
+---
+
+---
+
+## 같이보면 좋은 자료들
+
+* 참고: [De Morgan's Law](https://dsaint31.me/mkdocs_site/CE/ch01/ch01_13_boolean_algebra/#de-morgans-law)
+* [Week01](/math/math-week01/#logic)

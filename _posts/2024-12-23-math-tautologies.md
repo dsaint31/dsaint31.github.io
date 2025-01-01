@@ -4,10 +4,11 @@ last_modified_at: 2024-12-23T22:20:02-05:00
 categories:
   - Math
 tags:
-  - 
+  - Tautology
+  - Contradiction
 ---
 
-항상 참인 연산과 항상 거짓인 연산을 가리킴.
+항상 참인 연산과 항상 거짓인 propositions (or operations)를 가리킴.
 
 ## Tautologies
 
@@ -27,3 +28,12 @@ tags:
 
 * $p \land \neg q$
 * $(p \lor q)\land [(\neg p) \land (\neg q)]$
+
+
+---
+
+---
+
+## 같이보면 좋은 자료들
+
+* [Week01](/math/math-week01/#logic)
