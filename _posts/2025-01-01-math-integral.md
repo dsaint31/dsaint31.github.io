@@ -1,3 +1,14 @@
+---
+title: "[Math] Integral and Fundamental Theorem of Calculus"
+last_modified_at: 2025-01-01 22:31:15
+categories:
+  - Math
+tags:
+  - Integral
+  - Derivative
+  - Ramann
+  - Fundamental Theorme of Calculus
+---
 
 # Integral과 Derivative
 
@@ -40,22 +51,29 @@ $$
 
 # Fundamental Theorem of Calculus
 
-> *미분과 적분은 서로에 대한 역(inverse)으로 이해할 수 있음.* 
+> *미분과 적분은 서로에 대한 역(inverse)으로 이해할 수 있음.*
+
 **미적분의 기본정리(Fundamental Theorem of Calculus)** 는 
-“어떤 함수를 적분한 후 다시 미분하면 원래의 함수가 되고, 반대로 어떤 함수를 미분한 것을 다시 적분하면 원래의 함수와 같은 형태”
-가 됨을 의미함.
-즉, 미분과 적분을 “미적분의 기본정리”가 연결해주고 있음: 각각의 역으로...
-> 
+
+* 어떤 함수를 적분한 후 다시 미분하면 원래의 함수가 되고,
+* 반대로 어떤 함수를 미분한 것을 다시 적분하면 원래의 함수와 같은 형태가 됨을 의미함.
+
+즉, 미분과 적분을 “미적분의 기본정리”가 연결해주고 있음: 각각의 Inverse(역) 으로...
 
 ## 미적분의 제1기본정리
 
-Function $f: [a,b] \rightarrow \mathbb{R}$가 연속인 경우, function $g: [a,b] \rightarrow \mathbb{R}$을 다음과 같이 정의하자.
+Function $f: [a,b] \rightarrow \mathbb{R}$가 연속인 경우,  
+function $g: [a,b] \rightarrow \mathbb{R}$을 다음과 같이 정의하자.
 
 $$
 g(x)=\int^x_af(t)dt
 $$
 
-이 경우, function $g$는 interval $[a,b]$에서 연속이고, $(a,b)$에서 미분가능하며 다음이 성립함.
+이 경우, function $g$는 
+
+* interval $[a,b]$에서 연속이고,
+* $(a,b)$에서 미분가능하며
+* 다음이 성립함.
 
 $$
 g^\prime(x)=\dfrac{d}{dx}\int^x_af(t)dt=f(x)
@@ -63,22 +81,30 @@ $$
 
 즉, $g^\prime (x)=f(x)$임.
 
-> 처음에 주어진 함수 $f$의 정적분을 이용하여 
-정의한 함수 $g$ ($g$~정적분의 결과)가 
-바로 $f$의 부정적분들 중 하나 임을 의미. 
-← Definite Integral (정적분)이라는 Function의 성질을 규명: 
-바로 Definite Integral은 Indefinite Integral의 하나임.)
+> 처음에 주어진 함수 $f$의 정적분을 이용하여  
+> 정의한 함수 $g$ ($g$~정적분의 결과)가  
+> 바로 $f$의 부정적분들 중 하나 임을 의미. 
+>
+> * Definite Integral (정적분)이라는 Function의 성질을 규명: 
+> * 바로 Definite Integral은 Indefinite Integral의 하나임.
 > 
 
 ## 미적분의 제2기본정리
 
-Function $f$가 $[a,b]$ 에서 연속이고, 함수 $F$가 $f$의 임의의 indefinite integral function(부정적분)일 때, 다음이 성립함
+Function $f$가 $[a,b]$ 에서 연속이고,  
+함수 $F$가 $f$의 임의의 indefinite integral function(부정적분)일 때,  
+다음이 성립함
 
 $$
 \displaystyle \int^b_a f(x)dx=F(b)-F(a)=\left[F(x)\right]^b_a=\left. F(x) \right|^b_a
 $$
 
-> Definite integral을 “Riemann sum의 극한”으로 구하지않고도 
-indefinite integral에 양 끝점을 대입하여 구하는 방법을 제시. 
-← indefinite integral로 definite integral을 구함
->
+> Definite integral을 “Riemann sum의 극한”으로 구하지않고도
+> Indefinite Integral에 양 끝점을 대입하여 구하는 방법을 제시.  
+> ← indefinite integral로 definite integral을 구함
+
+---
+
+## References
+
+
