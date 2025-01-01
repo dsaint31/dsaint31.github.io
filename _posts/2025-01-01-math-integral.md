@@ -8,14 +8,19 @@ tags:
   - Derivative
   - Ramann
   - Fundamental Theorme of Calculus
+  - Week03
 ---
 
 # Integral과 Derivative
 
 Derivative(도함수)가 Function의 순간적인(or 지역적인) 변화율을 나타내는 것과 대조적으로 
 
-> **Integral은
-> Function의 전체적인 특성, 어떤 양을 나타냄**.
+> **Integral** 은
+> **Function의 전체적인 특성, 어떤 양을 나타냄**.
+
+---
+
+---
 
 # 부정적분(Indefinite Integral)
 
@@ -26,6 +31,10 @@ $$
 
 - 미분의 역연산(`anti-derivative` = `inverse` of derivative)
 - 함수의 전체 정의역(domain)에서 정의됨
+
+---
+
+---
 
 # 정적분(definite integral)
 
@@ -49,6 +58,10 @@ $$
 > Riemann sum의 극한으로 구하지 않고도 
 **미적분의 제2기본정리 (The Second Fundamental Theorem of Calculus)** 로도 구할 수 있음.
 
+---
+
+---
+
 # Fundamental Theorem of Calculus
 
 > *미분과 적분은 서로에 대한 역(inverse)으로 이해할 수 있음.*
@@ -59,6 +72,8 @@ $$
 * 반대로 어떤 함수를 미분한 것을 다시 적분하면 원래의 함수와 같은 형태가 됨을 의미함.
 
 즉, 미분과 적분을 “미적분의 기본정리”가 연결해주고 있음: 각각의 Inverse(역) 으로...
+
+---
 
 ## 미적분의 제1기본정리
 
@@ -89,6 +104,8 @@ $$
 > * 바로 Definite Integral은 Indefinite Integral의 하나임.
 > 
 
+---
+
 ## 미적분의 제2기본정리
 
 Function $f$가 $[a,b]$ 에서 연속이고,  
@@ -103,6 +120,7 @@ $$
 > Indefinite Integral에 양 끝점을 대입하여 구하는 방법을 제시.  
 > ← indefinite integral로 definite integral을 구함
 
+---
 
 ---
 
