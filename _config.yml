@@ -118,6 +118,7 @@ defaults:
       toc:
         min_level: 1
         max_level: 3
+      toc_sticky: true
   # _pages
   - scope:
       path: "_pages"
