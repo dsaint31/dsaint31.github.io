@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-16T08:02:09+00:00</updated><id>/feed.xml</id><title type="html">MM</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>dsaint31</name></author><entry><title type="html">Test Rouge</title><link href="/blog/test-rouge/" rel="alternate" type="text/html" title="Test Rouge" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>/blog/test-rouge</id><content type="html" xml:base="/blog/test-rouge/"><![CDATA[<p>Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://dsaint31.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dsaint31.github.io/" rel="alternate" type="text/html" /><updated>2025-01-16T08:11:16+00:00</updated><id>https://dsaint31.github.io/feed.xml</id><title type="html">DSaint31’s Blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>dsaint31</name></author><entry><title type="html">Test Rouge</title><link href="https://dsaint31.github.io/blog/test-rouge/" rel="alternate" type="text/html" title="Test Rouge" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>https://dsaint31.github.io/blog/test-rouge</id><content type="html" xml:base="https://dsaint31.github.io/blog/test-rouge/"><![CDATA[<p>Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.</p>
 
 <!--more-->
 
@@ -118,7 +118,7 @@ gem "wdm", "~&gt; 0.1.0" if Gem.win_platform?
 <span class="k">def</span> <span class="nf">test_func</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
     <span class="n">n</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">n</span>
-</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>dsaint31</name></author><category term="Blog" /><category term="Rouge" /><category term="Minimal Mistake" /><category term="Code" /><summary type="html"><![CDATA[Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.]]></summary></entry><entry><title type="html">[Math] Integral and Fundamental Theorem of Calculus</title><link href="/math/math-integral/" rel="alternate" type="text/html" title="[Math] Integral and Fundamental Theorem of Calculus" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T22:31:15+00:00</updated><id>/math/math-integral</id><content type="html" xml:base="/math/math-integral/"><![CDATA[<h1 id="integral과-derivative">Integral과 Derivative</h1>
+</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>dsaint31</name></author><category term="Blog" /><category term="Rouge" /><category term="Minimal Mistake" /><category term="Code" /><summary type="html"><![CDATA[Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.]]></summary></entry><entry><title type="html">[Math] Integral and Fundamental Theorem of Calculus</title><link href="https://dsaint31.github.io/math/math-integral/" rel="alternate" type="text/html" title="[Math] Integral and Fundamental Theorem of Calculus" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T22:31:15+00:00</updated><id>https://dsaint31.github.io/math/math-integral</id><content type="html" xml:base="https://dsaint31.github.io/math/math-integral/"><![CDATA[<h1 id="integral과-derivative">Integral과 Derivative</h1>
 
 <p>Derivative(도함수)가 Function의 순간적인(or 지역적인) 변화율을 나타내는 것과 대조적으로</p>
 
@@ -249,7 +249,7 @@ Indefinite Integral에 양 끝점을 대입하여 구하는 방법을 제시.<br
 
 <ul>
   <li><a href="/math/math-week03/">Week03</a></li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><category term="Integral" /><category term="Derivative" /><category term="Ramann" /><category term="Fundamental Theorme of Calculus" /><category term="Week03" /><summary type="html"><![CDATA[Integral과 Derivative]]></summary></entry><entry><title type="html">[Math] Limit (Summary)</title><link href="/math/math-limit/" rel="alternate" type="text/html" title="[Math] Limit (Summary)" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T23:24:15+00:00</updated><id>/math/math-limit</id><content type="html" xml:base="/math/math-limit/"><![CDATA[<h1 id="limit-이란">Limit 이란?</h1>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><category term="Integral" /><category term="Derivative" /><category term="Ramann" /><category term="Fundamental Theorme of Calculus" /><category term="Week03" /><summary type="html"><![CDATA[Integral과 Derivative]]></summary></entry><entry><title type="html">[Math] Limit (Summary)</title><link href="https://dsaint31.github.io/math/math-limit/" rel="alternate" type="text/html" title="[Math] Limit (Summary)" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T23:24:15+00:00</updated><id>https://dsaint31.github.io/math/math-limit</id><content type="html" xml:base="https://dsaint31.github.io/math/math-limit/"><![CDATA[<h1 id="limit-이란">Limit 이란?</h1>
 
 <p><strong>Llimit</strong>은 수학에서</p>
 
@@ -323,7 +323,7 @@ $f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
 
 <ul>
   <li><a href="/math/math-week03/">Week03</a></li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><category term="Limit" /><category term="Week03" /><summary type="html"><![CDATA[Limit 이란?]]></summary></entry><entry><title type="html">[Math] Week 02</title><link href="/math/math-week02/" rel="alternate" type="text/html" title="[Math] Week 02" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T16:47:25+00:00</updated><id>/math/math-week02</id><content type="html" xml:base="/math/math-week02/"><![CDATA[<h1 id="functions">Functions</h1>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><category term="Limit" /><category term="Week03" /><summary type="html"><![CDATA[Limit 이란?]]></summary></entry><entry><title type="html">[Math] Week 02</title><link href="https://dsaint31.github.io/math/math-week02/" rel="alternate" type="text/html" title="[Math] Week 02" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T16:47:25+00:00</updated><id>https://dsaint31.github.io/math/math-week02</id><content type="html" xml:base="https://dsaint31.github.io/math/math-week02/"><![CDATA[<h1 id="functions">Functions</h1>
 
 <h2 id="intro-of-functions">Intro. of Functions</h2>
 
@@ -390,7 +390,7 @@ $f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
   <li><a href="https://dsaint31.tistory.com/578">Logarithmic Functions</a></li>
   <li><a href="https://dsaint31.tistory.com/683">Exponential Functions</a></li>
   <li><a href="https://dsaint31.tistory.com/692">참고: Limits of Log and Exponetials</a></li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Functions]]></summary></entry><entry><title type="html">[Math] Week 03</title><link href="/math/math-week03/" rel="alternate" type="text/html" title="[Math] Week 03" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T00:00:00+00:00</updated><id>/math/math-week03</id><content type="html" xml:base="/math/math-week03/"><![CDATA[<h2 id="limit-and-continuity">Limit and Continuity</h2>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Functions]]></summary></entry><entry><title type="html">[Math] Week 03</title><link href="https://dsaint31.github.io/math/math-week03/" rel="alternate" type="text/html" title="[Math] Week 03" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T00:00:00+00:00</updated><id>https://dsaint31.github.io/math/math-week03</id><content type="html" xml:base="https://dsaint31.github.io/math/math-week03/"><![CDATA[<h2 id="limit-and-continuity">Limit and Continuity</h2>
 
 <ul>
   <li><a href="/math/math-limit/"><code class="language-plaintext highlighter-rouge">Limit</code>: Intro.</a></li>
@@ -424,7 +424,7 @@ $f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
 
 <ul>
   <li><a href="https://dsaint31.tistory.com/689"><code class="language-plaintext highlighter-rouge">Intermediate Value Theorem</code>, <code class="language-plaintext highlighter-rouge">Mean Value Theorem</code> and <code class="language-plaintext highlighter-rouge">Rolle’s Theorem</code></a></li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Limit and Continuity]]></summary></entry><entry><title type="html">[Math] Factorization</title><link href="/math/math-fatorization/" rel="alternate" type="text/html" title="[Math] Factorization" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>/math/math-fatorization</id><content type="html" xml:base="/math/math-fatorization/"><![CDATA[<h2 id="factorization">Factorization</h2>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Limit and Continuity]]></summary></entry><entry><title type="html">[Math] Factorization</title><link href="https://dsaint31.github.io/math/math-fatorization/" rel="alternate" type="text/html" title="[Math] Factorization" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>https://dsaint31.github.io/math/math-fatorization</id><content type="html" xml:base="https://dsaint31.github.io/math/math-fatorization/"><![CDATA[<h2 id="factorization">Factorization</h2>
 
 <p>수학에서 Entity를 좀더 간단한 entities의 곱(factors의 곱)으로 분해하는 것을 가리킴.</p>
 
@@ -450,7 +450,7 @@ $f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
   <li>LR Factorization: 행렬을 하삼각 행렬(<code class="language-plaintext highlighter-rouge">L</code>)과 상삼각 행렬(<code class="language-plaintext highlighter-rouge">U</code>)의 곱으로 분해</li>
   <li>QR Factorization: 행렬을 직교 행렬(<code class="language-plaintext highlighter-rouge">Q</code>)과 상삼각 행렬(<code class="language-plaintext highlighter-rouge">R</code>)의 곱으로 분해</li>
   <li><a href="https://dsaint31.tistory.com/657">SVD (Singular Value Decomposition)</a>: 행렬을 두 개의 직교 행렬과 하나의 대각 행렬의 곱으로 표현</li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Factorization]]></summary></entry><entry><title type="html">[Math] Powers</title><link href="/math/math-powers/" rel="alternate" type="text/html" title="[Math] Powers" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>/math/math-powers</id><content type="html" xml:base="/math/math-powers/"><![CDATA[<h2 id="powers">Powers</h2>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Factorization]]></summary></entry><entry><title type="html">[Math] Powers</title><link href="https://dsaint31.github.io/math/math-powers/" rel="alternate" type="text/html" title="[Math] Powers" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>https://dsaint31.github.io/math/math-powers</id><content type="html" xml:base="https://dsaint31.github.io/math/math-powers/"><![CDATA[<h2 id="powers">Powers</h2>
 
 <p>수학에서 <code class="language-plaintext highlighter-rouge">Power</code>(거듭제곱)은</p>
 
@@ -476,7 +476,7 @@ $f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
   <li>$\frac{a^m}{a^n}=a^{m-n}$</li>
   <li>$(a^m)^n=a^{mn}$</li>
   <li>$(x \times y)^n=x^ny^n$</li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Powers]]></summary></entry><entry><title type="html">[Math] Week 01</title><link href="/math/math-week01/" rel="alternate" type="text/html" title="[Math] Week 01" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>/math/math-week01</id><content type="html" xml:base="/math/math-week01/"><![CDATA[<h1 id="basic">Basic</h1>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Powers]]></summary></entry><entry><title type="html">[Math] Week 01</title><link href="https://dsaint31.github.io/math/math-week01/" rel="alternate" type="text/html" title="[Math] Week 01" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>https://dsaint31.github.io/math/math-week01</id><content type="html" xml:base="https://dsaint31.github.io/math/math-week01/"><![CDATA[<h1 id="basic">Basic</h1>
 
 <h2 id="type-of-numbers">Type of Numbers</h2>
 
@@ -518,7 +518,7 @@ $f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
 
 <ul>
   <li><a href="https://dsaint31.tistory.com/215">Function</a></li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Basic]]></summary></entry><entry><title type="html">[Math] Logic: Tautologies and Contradictions</title><link href="/math/math-tautologies/" rel="alternate" type="text/html" title="[Math] Logic: Tautologies and Contradictions" /><published>2024-12-23T00:00:00+00:00</published><updated>2024-12-24T03:20:02+00:00</updated><id>/math/math-tautologies</id><content type="html" xml:base="/math/math-tautologies/"><![CDATA[<p>항상 참인 연산과 항상 거짓인 propositions (or operations)를 가리킴.</p>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><summary type="html"><![CDATA[Basic]]></summary></entry><entry><title type="html">[Math] Logic: Tautologies and Contradictions</title><link href="https://dsaint31.github.io/math/math-tautologies/" rel="alternate" type="text/html" title="[Math] Logic: Tautologies and Contradictions" /><published>2024-12-23T00:00:00+00:00</published><updated>2024-12-24T03:20:02+00:00</updated><id>https://dsaint31.github.io/math/math-tautologies</id><content type="html" xml:base="https://dsaint31.github.io/math/math-tautologies/"><![CDATA[<p>항상 참인 연산과 항상 거짓인 propositions (or operations)를 가리킴.</p>
 
 <h2 id="tautologies">Tautologies</h2>
 
@@ -550,7 +550,7 @@ $f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
 
 <ul>
   <li><a href="/math/math-week01/#logic">Week01</a></li>
-</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><category term="Tautology" /><category term="Contradiction" /><summary type="html"><![CDATA[항상 참인 연산과 항상 거짓인 propositions (or operations)를 가리킴.]]></summary></entry><entry><title type="html">What MathJax is</title><link href="/blog/blog-mathjax/" rel="alternate" type="text/html" title="What MathJax is" /><published>2024-12-22T13:30:45+00:00</published><updated>2024-12-22T13:30:45+00:00</updated><id>/blog/blog-mathjax</id><content type="html" xml:base="/blog/blog-mathjax/"><![CDATA[<h1 id="mathjax-소개">MathJax 소개</h1>
+</ul>]]></content><author><name>dsaint31</name></author><category term="Math" /><category term="Tautology" /><category term="Contradiction" /><summary type="html"><![CDATA[항상 참인 연산과 항상 거짓인 propositions (or operations)를 가리킴.]]></summary></entry><entry><title type="html">What MathJax is</title><link href="https://dsaint31.github.io/blog/blog-mathjax/" rel="alternate" type="text/html" title="What MathJax is" /><published>2024-12-22T13:30:45+00:00</published><updated>2024-12-22T13:30:45+00:00</updated><id>https://dsaint31.github.io/blog/blog-mathjax</id><content type="html" xml:base="https://dsaint31.github.io/blog/blog-mathjax/"><![CDATA[<h1 id="mathjax-소개">MathJax 소개</h1>
 
 <p>MathJax는 웹 페이지에서 수학식과 수학 공식을 쉽게 표시할 수 있게 해주는 JavaScript 라이브러리
 LaTeX, MathML, AsciiMath와 같은 다양한 수학 마크업 언어를 지원
