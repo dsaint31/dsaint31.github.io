@@ -1,14 +1,14 @@
 // 페이지 폭을 1600px로 넓히는 스타일
 .page {
-  max-width: 1600px;
+  max-width: 1600px !important; 
 }
 
 .page__inner-wrap {
-  max-width: 1600px;
+  max-width: 1600px !important;
 }
 
 .page__content, .page__hero, .page__hero--overlay {
-  max-width: 1600px;
+  max-width: 1600px !important;
 }
 
 // 사이드바가 있는 경우
