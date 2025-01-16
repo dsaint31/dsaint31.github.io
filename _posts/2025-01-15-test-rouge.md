@@ -4,9 +4,9 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Rouge
+  - Minimal Mistake
+  - Code
 ---
 
 Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.
