@@ -1,1 +1,36 @@
+// 페이지 폭을 1200px로 넓히는 스타일
+.page {
+  max-width: 1200px;
+}
 
+.page__inner-wrap {
+  max-width: 1200px;
+}
+
+.page__content, .page__hero, .page__hero--overlay {
+  max-width: 1200px;
+}
+
+// 사이드바가 있는 경우
+.page__main {
+  max-width: calc(1200px - 300px); // 기본 사이드바 폭이 300px일 경우
+}
+
+.page__sidebar {
+  width: 300px; // 사이드바 폭 고정
+}
+
+// 반응형 디자인을 위한 미디어 쿼리
+@media screen and (max-width: 1200px) {
+  .page, .page__inner-wrap, .page__content, .page__hero, .page__hero--overlay {
+    max-width: 100%;
+  }
+
+  .page__main {
+    max-width: 100%;
+  }
+
+  .page__sidebar {
+    width: 100%;
+  }
+}
