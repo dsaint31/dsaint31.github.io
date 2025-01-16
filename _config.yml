@@ -115,6 +115,9 @@ defaults:
       comments: true
       share: true
       related: true
+      toc:
+        min_level: 2
+        max_level: 3
   # _pages
   - scope:
       path: "_pages"
@@ -140,6 +143,4 @@ sass:
   add:
     - assets/css/custom-styles.scss
 
-toc:
-  min_level: 2
-  max_level: 3
+
