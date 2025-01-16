@@ -139,3 +139,7 @@ sass:
     - node_modules
   add:
     - assets/css/custom-styles.scss
+
+toc:
+  min_level: 2
+  max_level: 3
