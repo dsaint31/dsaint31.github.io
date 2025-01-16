@@ -49,7 +49,7 @@ plugins:
 
 아래는 `Gemfile` 로서 맨 아래 라인에 `gem rouge`가 기재됨.
 
-```rudy
+```ruby
 source "https://rubygems.org"
 
 # 테마를 사용하기 위한 플러그인
@@ -76,17 +76,9 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 ```
 
-이후 코드는 backtick을 세개 연달아 놓고 ` ``` `코드를 기재하고 다시 세개 연달아 있는 backtick으로 기재하면 다음과 같이 보임.
+이후 코드는 backtick (`)을 세개 연달아 놓고 코드를 기재하고 다시 세개 연달아 있는 backtick으로 기재하면 됨:
 
-```markdown
+다음 자료에서 10번을 참고할 것.
+* 참고:[markdown 문법](https://dsaint31.tistory.com/205)
 
-  ```python
-  import numpy as np
-
-  def test_func(a):
-      n = np.array(a)
-      return n
-  ```
-
-```
 
