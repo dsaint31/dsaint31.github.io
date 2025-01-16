@@ -1,27 +1,30 @@
-# .github/workflows/jekyll.yml
-name: Deploy Jekyll with Custom Gems
+name: Jekyll site CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7 # or any other version you need
+        ruby-version: 3.1 # Ruby 3.1.0을 사용합니다.
     - name: Install dependencies
       run: |
-        gem install bundler
+        gem install bundler -v 2.4.22 # 또는 사용하려는 Bundler 버전을 지정
         bundle install
     - name: Build the site
       run: bundle exec jekyll build
     - name: Deploy
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
