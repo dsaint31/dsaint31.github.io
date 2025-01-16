@@ -14,4 +14,4 @@ last_modified_at: 2024-12-31 16:53:38
 
 # Week03
 
-[week03](/math/math-week03
+[week03](/math/math-week03)
