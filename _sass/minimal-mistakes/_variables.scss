@@ -149,12 +149,12 @@
       ========================================================================== */
    
    $small: 600px !default;
-   $medium: 1024px !default;
-   $medium-wide: 1280px !default;
-   $large: 1800px !default;
-   $x-large: 2200px !default;
-   //$max-width: $x-large !default;
-   $max-width: calc(100vw - 200px) !default;
+   $medium: 1280px !default;
+   $medium-wide: 1800px !default;
+   $large: 2200px !default;
+   $x-large: 3200px !default;
+   $max-width: $x-large !default;
+   //$max-width: calc(100vw - 200px) !default;
    
    /*
       Grid
