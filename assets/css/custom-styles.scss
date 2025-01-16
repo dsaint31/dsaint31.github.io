@@ -1,4 +1,9 @@
 // 페이지 폭을 1600px로 넓히는 스타일
+$bp-larger-screen: 1600px;
+$right-sidebar-width-narrow: 200px !default;    // default 200px
+$right-sidebar-width: 300px !default;           // default 300px
+$right-sidebar-width-wide: 300px !default;      // default 400px
+
 .page {
   max-width: 1600px !important; 
 }
@@ -20,21 +25,46 @@
   width: 300px; // 사이드바 폭 고정
 }
 
-// 반응형 디자인을 위한 미디어 쿼리
-@media screen and (max-width: 1600px) {
-  .page, .page__inner-wrap, .page__content, .page__hero, .page__hero--overlay {
-    max-width: 100%;
+// 'wide' 레이아웃이 적용되는 화면 크기 기준 변경
+@media screen and (min-width: $bp-larger-screen) {
+  .page {
+    max-width: $bp-larger-screen;
+  }
+
+  .page__inner-wrap {
+    max-width: $bp-larger-screen;
+  }
+
+  .page__content, .page__hero, .page__hero--overlay {
+    max-width: $bp-larger-screen;
   }
 
   .page__main {
-    max-width: 100%;
+    max-width: calc(#{$bp-larger-screen} - 300px); // 사이드바 폭을 고려
   }
 
   .page__sidebar {
-    width: 100%;
+    width: 300px;
+  }
+
+  // TOC 설정
+  .toc {
+    width: 300px;
+    margin-left: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
+  }
+
+  .page__content {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .page__main {
+    flex: 1;
   }
 }
-
-$right-sidebar-width-narrow: 100px !default;    // default 200px
-$right-sidebar-width: 200px !default;           // default 300px
-$right-sidebar-width-wide: 250px !default;      // default 400px
