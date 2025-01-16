@@ -123,9 +123,19 @@ defaults:
       layout: single
       author_profile: true
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+
+# Custom CSS for changing the layout width
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules
+  add:
+    - assets/css/custom-styles.scss
