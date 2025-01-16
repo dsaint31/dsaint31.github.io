@@ -3,31 +3,33 @@
   max-width: none;
 }
 
-// 본문의 폭을 창 크기에 따라 최대로 설정
+// 본문의 폭을 창 크기에 따라 최대로 설정, 좌우 마진 0으로
 .page__main {
   width: 100%;
   max-width: 100%;
   flex: 1;
+  margin: 0;
 }
 
 // 큰 화면에서의 레이아웃 설정
 @media screen and (min-width: 80em) {
   .page__content {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap; // nowrap으로 변경하여 줄바꿈 방지
   }
 
   // 사이드바를 왼쪽에 고정
   .page__sidebar {
     width: 300px;
     flex: 0 0 300px;
-    order: 1; // 사이드바를 첫 번째 요소로
+    order: 1;
+    margin: 0;
   }
 
   // TOC를 오른쪽에 고정
   .toc {
     width: 300px;
-    margin-right: 0; // 오른쪽 끝에 붙임
+    margin: 0;
     position: -webkit-sticky;
     position: sticky;
     top: 20px;
@@ -40,8 +42,14 @@
 
   // 본문을 중간에 두기
   .page__main {
-    flex: 1 1 auto; // 본문을 남은 공간에 확장
-    order: 2; // 본문을 두 번째 요소로
+    flex: 1 1 auto;
+    order: 2;
+    margin: 0;
+  }
+
+  // TOC가 항상 오른쪽에 붙도록
+  .page__content .toc {
+    margin-left: auto; // TOC를 오른쪽 끝에 붙이기 위해
   }
 }
 
@@ -56,6 +64,7 @@
   .page__main {
     width: 100%;
     max-width: 100%;
-    order: 3; // 작은 화면에서 마지막으로 오도록
+    order: 3;
+    margin: 0;
   }
 }
