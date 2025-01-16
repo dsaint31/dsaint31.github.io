@@ -1,55 +1,29 @@
-// 페이지 폭을 1600px로 넓히는 스타일
-$bp-larger-screen: 1600px;
-$right-sidebar-width-narrow: 200px !default;    // default 200px
-$right-sidebar-width: 300px !default;           // default 300px
-$right-sidebar-width-wide: 300px !default;      // default 400px
-
-.page {
-  max-width: 1600px !important; 
+// 페이지의 최대 폭 제한을 없애기
+.page, .page__inner-wrap, .page__content, .page__hero, .page__hero--overlay {
+  max-width: none;
 }
 
-.page__inner-wrap {
-  max-width: 1600px !important;
-}
-
-.page__content, .page__hero, .page__hero--overlay {
-  max-width: 1600px !important;
-}
-
-// 사이드바가 있는 경우
+// 본문의 폭을 창 크기에 따라 최대로 설정
 .page__main {
-  max-width: calc(1600px - 300px); // 기본 사이드바 폭이 300px일 경우
+  width: 100%;
+  max-width: 100%;
+  flex: 1;
 }
 
-.page__sidebar {
-  width: 300px; // 사이드바 폭 고정
-}
-
-// 'wide' 레이아웃이 적용되는 화면 크기 기준 변경
-@media screen and (min-width: $bp-larger-screen) {
-  .page {
-    max-width: $bp-larger-screen;
-  }
-
-  .page__inner-wrap {
-    max-width: $bp-larger-screen;
-  }
-
-  .page__content, .page__hero, .page__hero--overlay {
-    max-width: $bp-larger-screen;
-  }
-
-  .page__main {
-    max-width: calc(#{$bp-larger-screen} - 300px); // 사이드바 폭을 고려
+// 사이드바와 TOC의 폭 제한
+@media screen and (min-width: 80em) {
+  .page__content {
+    display: flex;
+    flex-flow: row wrap;
   }
 
   .page__sidebar {
-    width: 300px;
+    width: 300px; // 사이드바 폭 고정
+    flex: 0 0 300px; // 사이드바가 flex 레이아웃에서 고정되도록
   }
 
-  // TOC 설정
   .toc {
-    width: 300px;
+    width: 300px; // TOC 폭 고정
     margin-left: 20px;
     position: -webkit-sticky;
     position: sticky;
@@ -57,15 +31,21 @@ $right-sidebar-width-wide: 300px !default;      // default 400px
     align-self: flex-start;
     max-height: calc(100vh - 20px);
     overflow-y: auto;
-  }
-
-  .page__content {
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-  .page__main {
-    flex: 1;
+    flex: 0 0 300px; // TOC가 flex 레이웃에서 고정되도록
   }
 }
 
+// 작은 화면에서의 레이아웃 조정
+@media screen and (max-width: 80em) {
+  .page__sidebar, .toc {
+    width: 100%;
+    position: static;
+    margin: 0;
+  }
+
+  .page__main {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px; // 사이드바나 TOC가 아래에 오는 경우 마진 추가
+  }
+}
