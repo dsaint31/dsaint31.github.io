@@ -1,7 +1,7 @@
 ---
 title: "What MathJax is"
 date: 2024-12-22 22:30:45 +0900
-categories: blog
+categories: Blog
 tags:
     - mathjax
     - latex
