@@ -79,6 +79,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 이후 코드는 backtick (`)을 세개 연달아 놓고 코드를 기재하고 다시 세개 연달아 있는 backtick으로 기재하면 됨:
 
 다음 자료에서 10번을 참고할 것.
+
 * 참고:[markdown 문법](https://dsaint31.tistory.com/205)
 
 
