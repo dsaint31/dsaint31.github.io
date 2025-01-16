@@ -34,11 +34,20 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Build settings
+minimal_mistakes_skin: "air" # default
+search: true
+breadcrumbs: true
+words_per_minute: 200
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     block:
-      line_numbers: tru
+      line_numbers: true
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "dsaint31s-gitpage"
 
 include:
   - _pages
