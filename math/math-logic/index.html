@@ -1,0 +1,178 @@
+<h2 id="propositions">Propositions</h2>
+
+<h4 id="conditions">Conditions</h4>
+
+<p>variable에 따라 True, False 가 달라지는 expression.</p>
+
+\[x^2 = 4\]
+
+<ul>
+  <li>$x= \pm 2$ 이면 True.</li>
+  <li>otherwise: False</li>
+</ul>
+
+<p>비교: true/false propositions</p>
+<ul>
+  <li>true proposition: 항상 true.</li>
+  <li>false proposition: 항상 false.</li>
+</ul>
+
+<h4 id="truth-sets">Truth Sets</h4>
+
+<p>어떤 condition을 만족하는 element들로 구성된 set.</p>
+
+<p>condition이 정해지면, truth set이 지정됨.</p>
+
+<blockquote>
+  <p>condition을 통해 set이 정해짐.</p>
+</blockquote>
+
+<h2 id="logical-operations">Logical Operations</h2>
+
+<p><strong>Unary Operations</strong></p>
+
+<ul>
+  <li>$\neg$ : Logical Negation</li>
+</ul>
+
+<p><strong>Binary Operations</strong></p>
+
+<ul>
+  <li>$\land$ : Logical Conjunction (= <code class="language-plaintext highlighter-rouge">and</code>)</li>
+  <li>$\lor$ : Logical Disjunction (= <code class="language-plaintext highlighter-rouge">or</code>)</li>
+  <li>$\implies$ : Logical Implication</li>
+  <li>$\oplus$ : Logical Exclusive Disjunction (= <code class="language-plaintext highlighter-rouge">xor</code>)</li>
+</ul>
+
+<p>참고: <a href="https://dsaint31.me/mkdocs_site/CE/ch01/ch01_13_boolean_algebra/#symbols-and-truth-table">Truth Table</a></p>
+
+<h4 id="logical-implications">Logical Implications</h4>
+
+<p>Truth Table of Logical Implication</p>
+
+<blockquote>
+  <p>cause $p$가 False 경우 무조건 True임.</p>
+
+  <p>무죄 추정의 원칙?</p>
+</blockquote>
+
+\[p \implies q\]
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">$p$</th>
+      <th style="text-align: center">$q$</th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sufficiency-and-necessity">Sufficiency and Necessity</h4>
+<p>참고: <a href="https://dsaint31.tistory.com/314">Sufficiency and Necessity</a></p>
+
+<h4 id="converse-contrapositive-inverse">Converse, Contrapositive, Inverse</h4>
+
+\[p \implies q\]
+
+<ul>
+  <li><strong>converse (역)</strong>: $q\implies p$</li>
+  <li><strong>inverse (부정)</strong>: $\neg p \implies \neg q$</li>
+  <li><strong>contrapositive (대우)</strong>: $\neg q \implies \neg q$</li>
+</ul>
+
+<h2 id="all-and-existent">All and Existent</h2>
+
+<h4 id="for-all-forall">For All $\forall$</h4>
+
+<p>$\forall x, p$: 모든 $x$ 에 대해 $p$가 만족함.</p>
+
+<ul>
+  <li>$\forall x, 0x = 0$</li>
+  <li>$\forall x \text{ except }x=0, x\frac{1}{x}=1$</li>
+</ul>
+
+<h4 id="there-exists-exists">There Exists $\exists$</h4>
+
+<p>$\exists x, q$: 최소한 하나 이상의 $x$에서 $q$가 만족함.</p>
+
+<ul>
+  <li>$\exists x, x+3 = 0$</li>
+  <li>$\exists x, x^2=1$</li>
+</ul>
+
+<h4 id="identities-and-inverses">Identities and Inverses</h4>
+
+<p>Additive Identities and Inverse</p>
+
+\[\begin{aligned} \forall x, \exists a, x+a =x &amp; \implies a=0 \\ \forall x, \exists a, x+a = 0 &amp;\implies a=-x \end{aligned}\]
+
+<p>Multiplicative Identities and Inverse</p>
+
+\[\begin{aligned} \forall x \text{ except } x=0, \exists a, xa=x &amp;\implies a=1 \\ \forall x \text{ except } x=0, \exists a, xa=1 &amp;\implies a=x^{-1} \end{aligned}\]
+
+<h2 id="logical-computations">Logical Computations</h2>
+
+<h4 id="commutativity">Commutativity</h4>
+
+<p>교환법칙</p>
+
+<ul>
+  <li>$p \land q \iff q \land p$</li>
+  <li>$p \lor q \iff q \land p$</li>
+</ul>
+
+<h4 id="associativity">Associativity</h4>
+
+<p>결합법칙</p>
+
+<ul>
+  <li>$(p \land q) \land r \iff p \land (q \land r)$</li>
+  <li>$(p \lor q) \lor r \iff p \lor (q \lor r)$</li>
+</ul>
+
+<h4 id="distributivity">Distributivity</h4>
+
+<p>분배접칙</p>
+
+<ul>
+  <li>$p \land (q \lor r) \iff (p \land q) \lor (p \land r)$</li>
+  <li>
+    <p>$p \lor (q \land r) \iff (p \lor q) \land (p \lor r)$</p>
+  </li>
+  <li>$(p \implies q) \iff (\neg q \implies \neg p)$</li>
+  <li>$(p \oplus q) \iff [{p \land (\neg q)} \lor { (\neg p) \land q } ]$</li>
+</ul>
+
+<hr />
+
+<hr />
+
+<h2 id="같이보면-좋은-자료들">같이보면 좋은 자료들</h2>
+
+<ul>
+  <li>참고: <a href="https://dsaint31.me/mkdocs_site/CE/ch01/ch01_13_boolean_algebra/#de-morgans-law">De Morgan’s Law</a></li>
+  <li><a href="/math/math-week01/#logic">Week01</a></li>
+</ul>

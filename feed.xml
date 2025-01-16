@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-16T06:23:49+00:00</updated><id>/feed.xml</id><title type="html">MM</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>First Lastname</name></author><entry><title type="html">Test Rouge</title><link href="/blog/test-rouge/" rel="alternate" type="text/html" title="Test Rouge" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>/blog/test-rouge</id><content type="html" xml:base="/blog/test-rouge/"><![CDATA[<p>Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-16T06:28:12+00:00</updated><id>/feed.xml</id><title type="html">MM</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>First Lastname</name></author><entry><title type="html">Test Rouge</title><link href="/blog/test-rouge/" rel="alternate" type="text/html" title="Test Rouge" /><published>2025-01-15T00:00:00+00:00</published><updated>2025-01-15T00:00:00+00:00</updated><id>/blog/test-rouge</id><content type="html" xml:base="/blog/test-rouge/"><![CDATA[<p>Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.</p>
 
 <!--more-->
 
@@ -118,242 +118,613 @@ gem "wdm", "~&gt; 0.1.0" if Gem.win_platform?
 <span class="k">def</span> <span class="nf">test_func</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
     <span class="n">n</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">n</span>
-</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T19:34:30+00:00</published><updated>2019-04-18T19:34:30+00:00</updated><id>/blog/welcome-to-jekyll</id><content type="html" xml:base="/blog/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[Rouge는 code highlighting을 위해, Minimal Mistakes에서 사용하고 있음.]]></summary></entry><entry><title type="html">[Math] Integral and Fundamental Theorem of Calculus</title><link href="/math/math-integral/" rel="alternate" type="text/html" title="[Math] Integral and Fundamental Theorem of Calculus" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T22:31:15+00:00</updated><id>/math/math-integral</id><content type="html" xml:base="/math/math-integral/"><![CDATA[<h1 id="integral과-derivative">Integral과 Derivative</h1>
 
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td><td class="rouge-code"><pre><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>First Lastname</name></author><category term="blog" /><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Post: Link</title><link href="/blog/post-link/" rel="alternate" type="text/html" title="Post: Link" /><published>2010-03-07T00:00:00+00:00</published><updated>2010-03-07T00:00:00+00:00</updated><id>/blog/post-link</id><content type="html" xml:base="/blog/post-link/"><![CDATA[<p>This theme supports <strong>link posts</strong>, made famous by John Gruber. To use, just add <code class="language-plaintext highlighter-rouge">link: http://url-you-want-linked</code> to the post’s YAML front matter and you’re done.</p>
+<p>Derivative(도함수)가 Function의 순간적인(or 지역적인) 변화율을 나타내는 것과 대조적으로</p>
 
 <blockquote>
-  <p>And this is how a quote looks.</p>
+  <p><strong>Integral</strong> 은
+<strong>Function의 전체적인 특성, 어떤 양을 나타냄</strong>.</p>
 </blockquote>
 
-<p>Some <a href="#">link</a> can also be shown.</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="link" /><category term="Post Formats" /><summary type="html"><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.]]></summary></entry><entry><title type="html">Post: Notice</title><link href="/blog/post-notice/" rel="alternate" type="text/html" title="Post: Notice" /><published>2010-02-05T00:00:00+00:00</published><updated>2010-02-05T00:00:00+00:00</updated><id>/blog/post-notice</id><content type="html" xml:base="/blog/post-notice/"><![CDATA[<p>A notice displays information that explains nearby content. Often used to call attention to a particular detail.</p>
+<hr />
 
-<p>When using Kramdown <code class="language-plaintext highlighter-rouge">{: .notice}</code> can be added after a sentence to assign the <code class="language-plaintext highlighter-rouge">.notice</code> to the <code class="language-plaintext highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
+<hr />
 
-<p class="notice"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
+<h1 id="부정적분indefinite-integral">부정적분(Indefinite Integral)</h1>
 
-<p class="notice--primary"><strong>Primary Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. <a href="#">Praesent libero</a>. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--info"><strong>Info Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--warning"><strong>Warning Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Integer nec odio</a>. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--danger"><strong>Danger Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--success"><strong>Success Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at <a href="#">nibh elementum</a> imperdiet.</p>
-
-<p>Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with <code class="language-plaintext highlighter-rouge">markdownify</code> is a good way to go.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre>{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>{{ notice-2 | markdownify }}<span class="nt">&lt;/div&gt;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<div class="notice">
-  
-<h4 id="new-site-features">New Site Features</h4>
+<p>\(F(x)=\int{f(x) dx}\)
+\(f(x)=\dfrac{d}{dx}F(x)\)</p>
 
 <ul>
-  <li>You can now have cover images on blog pages</li>
-  <li>Drafts will now auto-save while writing</li>
+  <li>미분의 역연산(<code class="language-plaintext highlighter-rouge">anti-derivative</code> = <code class="language-plaintext highlighter-rouge">inverse</code> of derivative)</li>
+  <li>함수의 전체 정의역(domain)에서 정의됨</li>
 </ul>
 
-</div>
+<hr />
 
-<p>Or you could skip the capture and stick with straight HTML.</p>
+<hr />
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;h4&gt;</span>Message<span class="nt">&lt;/h4&gt;</span>
-  <span class="nt">&lt;p&gt;</span>A basic message.<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+<h1 id="정적분definite-integral">정적분(definite integral)</h1>
 
-<div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
-</div>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="notice" /><summary type="html"><![CDATA[A notice displays information that explains nearby content. Often used to call attention to a particular detail.]]></summary></entry><entry><title type="html">Post: Quote</title><link href="/blog/post-quote/" rel="alternate" type="text/html" title="Post: Quote" /><published>2010-02-05T00:00:00+00:00</published><updated>2010-02-05T00:00:00+00:00</updated><id>/blog/post-quote</id><content type="html" xml:base="/blog/post-quote/"><![CDATA[<blockquote>
-  <p>Only one thing is impossible for God: To find any sense in any copyright law on the planet.</p>
-</blockquote>
+<p>리만적분 (Riemann Integral, Limit of Riemann Sum) 으로 근사화하여 구할 수 있음.</p>
+
+<p><img src="/assets/images/integral-riemann.gif" alt="" /></p>
+
+<ul>
+  <li>어느 폐구간(closed interval)의 실수값 함수 $f(x)$ 아래의 area를 구함.</li>
+  <li>(무수히 많은 직사각형의) Riemann sum은 definite integral의 근사치를 구하게 해줌.</li>
+</ul>
+
+\[\begin{aligned}R(n)&amp;=\displaystyle \sum^n_{k=1}f(x_k)\Delta x \\&amp;=\sum^n_{k=1}f\left(2+\dfrac{6-2}{n}k\right)\dfrac{6-2}{n}\end{aligned}\]
+
+<p>위의 예에서  Riemann sum은</p>
+
+<ul>
+  <li>closed interval $[2,6]$에서</li>
+  <li>각각의 소구간 $[x_{k-1},x_k]$에서</li>
+  <li>오른쪽 끝점 $x_k=a+k\Delta x$와</li>
+  <li>$\Delta x = (6-2)/n$ 에 대한 것임.</li>
+  <li>엄밀히는 Riemann의 오른쪽 합임</li>
+</ul>
 
 <blockquote>
-  <p><cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite></p>
-</blockquote>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="quote" /><summary type="html"><![CDATA[Only one thing is impossible for God: To find any sense in any copyright law on the planet. Mark Twain]]></summary></entry><entry><title type="html">Post: Chat</title><link href="/blog/post-chat/" rel="alternate" type="text/html" title="Post: Chat" /><published>2010-01-08T00:00:00+00:00</published><updated>2010-01-08T00:00:00+00:00</updated><id>/blog/post-chat</id><content type="html" xml:base="/blog/post-chat/"><![CDATA[<p>Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.</p>
+  <p>Riemann sum의 극한으로 구하지 않고도 
+<strong>미적분의 제2기본정리 (The Second Fundamental Theorem of Calculus)</strong> 로도 구할 수 있음.</p>
+</blockquote>
 
-<p>Costello: Funny names?</p>
+<hr />
 
-<p>Abbott: Nicknames, nicknames. Now, on the St. Louis team we have Who’s on first, What’s on second, I Don’t Know is on third–</p>
+<hr />
 
-<p>Costello: That’s what I want to find out. I want you to tell me the names of the fellows on the St. Louis team.</p>
+<h1 id="fundamental-theorem-of-calculus">Fundamental Theorem of Calculus</h1>
 
-<p>Abbott: I’m telling you. Who’s on first, What’s on second, I Don’t Know is on third–</p>
+<blockquote>
+  <p><em>미분과 적분은 서로에 대한 역(inverse)으로 이해할 수 있음.</em></p>
+</blockquote>
 
-<p>Costello: You know the fellows’ names?</p>
+<p><strong>미적분의 기본정리(Fundamental Theorem of Calculus)</strong> 는</p>
 
-<p>Abbott: Yes.</p>
+<ul>
+  <li>어떤 함수를 적분한 후 다시 미분하면 원래의 함수가 되고,</li>
+  <li>반대로 어떤 함수를 미분한 것을 다시 적분하면 원래의 함수와 같은 형태가 됨을 의미함.</li>
+</ul>
 
-<p>Costello: Well, then who’s playing first?</p>
+<p>즉, 미분과 적분을 “미적분의 기본정리”가 연결해주고 있음: 각각의 Inverse(역) 으로…</p>
 
-<p>Abbott: Yes.</p>
+<hr />
 
-<p>Costello: I mean the fellow’s name on first base.</p>
+<h2 id="미적분의-제1기본정리">미적분의 제1기본정리</h2>
 
-<p>Abbott: Who.</p>
+<p>Function $f: [a,b] \rightarrow \mathbb{R}$가 연속인 경우,<br />
+function $g: [a,b] \rightarrow \mathbb{R}$을 다음과 같이 정의하자.</p>
 
-<p>Costello: The fellow playin’ first base.</p>
+\[g(x)=\int^x_af(t)dt\]
 
-<p>Abbott: Who.</p>
+<p>이 경우, function $g$는</p>
 
-<p>Costello: The guy on first base.</p>
+<ul>
+  <li>interval $[a,b]$에서 연속이고,</li>
+  <li>$(a,b)$에서 미분가능하며</li>
+  <li>다음이 성립함.</li>
+</ul>
 
-<p>Abbott: Who is on first.</p>
+\[g^\prime(x)=\dfrac{d}{dx}\int^x_af(t)dt=f(x)\]
 
-<p>Costello: Well, what are you askin’ me for?</p>
+<p>즉, $g^\prime (x)=f(x)$임.</p>
 
-<p>Abbott: I’m not asking you–I’m telling you. Who is on first.</p>
+<blockquote>
+  <p>처음에 주어진 함수 $f$의 정적분을 이용하여<br />
+정의한 함수 $g$ ($g$~정적분의 결과)가<br />
+바로 $f$의 부정적분들 중 하나 임을 의미.</p>
 
-<p>Costello: I’m asking you–who’s on first?</p>
+  <ul>
+    <li>Definite Integral (정적분)이라는 Function의 성질을 규명:</li>
+    <li>바로 Definite Integral은 Indefinite Integral의 하나임.</li>
+  </ul>
 
-<p>Abbott: That’s the man’s name.</p>
+</blockquote>
 
-<p>Costello: That’s who’s name?</p>
+<hr />
 
-<p>Abbott: Yes.</p>
+<h2 id="미적분의-제2기본정리">미적분의 제2기본정리</h2>
 
-<p>Costello: When you pay off the first baseman every month, who gets the money?</p>
+<p>Function $f$가 $[a,b]$ 에서 연속이고,<br />
+함수 $F$가 $f$의 임의의 indefinite integral function(부정적분)일 때,<br />
+다음이 성립함</p>
 
-<p>Abbott: Every dollar of it. And why not, the man’s entitled to it.</p>
+\[\displaystyle \int^b_a f(x)dx=F(b)-F(a)=\left[F(x)\right]^b_a=\left. F(x) \right|^b_a\]
 
-<p>Costello: Who is?</p>
+<blockquote>
+  <p>Definite integral을 “Riemann sum의 극한”으로 구하지않고도
+Indefinite Integral에 양 끝점을 대입하여 구하는 방법을 제시.<br />
+← indefinite integral로 definite integral을 구함</p>
+</blockquote>
 
-<p>Abbott: Yes.</p>
+<hr />
 
-<p>Costello: So who gets it?</p>
+<hr />
 
-<p>Abbott: Why shouldn’t he? Sometimes his wife comes down and collects it.</p>
+<h2 id="references">References</h2>
 
-<p>Costello: Who’s wife?</p>
+<ul>
+  <li><a href="/math/math-week03/">Week03</a></li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><category term="Integral" /><category term="Derivative" /><category term="Ramann" /><category term="Fundamental Theorme of Calculus" /><category term="Week03" /><summary type="html"><![CDATA[Integral과 Derivative]]></summary></entry><entry><title type="html">[Math] Limit (Summary)</title><link href="/math/math-limit/" rel="alternate" type="text/html" title="[Math] Limit (Summary)" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T23:24:15+00:00</updated><id>/math/math-limit</id><content type="html" xml:base="/math/math-limit/"><![CDATA[<h1 id="limit-이란">Limit 이란?</h1>
 
-<p>Abbott: Yes. After all, the man earns it.</p>
+<p><strong>Llimit</strong>은 수학에서</p>
 
-<p>Costello: Who does?</p>
+<ul>
+  <li>Function (함수),</li>
+  <li>Sequence (수열) 또는</li>
+  <li>다른 수학적 개념이</li>
+</ul>
 
-<p>Abbott: Absolutely.</p>
+<p>특정 Point(점) 에서 어떤 값으로 “가까워지는” 동작을 기술함.</p>
 
-<p>Costello: Well, all I’m trying to find out is what’s the guy’s name on first base?</p>
+<blockquote>
+  <p>Analysis(해석학)의 핵심<br />
+Calculus(미적분학)의 기본적인 토대.</p>
+</blockquote>
 
-<p>Abbott: Oh, no, no. What is on second base.</p>
+<hr />
 
-<p>Costello: I’m not asking you who’s on second.</p>
+<hr />
 
-<p>Abbott: Who’s on first!</p>
+<h2 id="limit-의-기본-개념">Limit 의 기본 개념</h2>
 
-<p>Costello: St. Louis has a good outfield?</p>
+<p>Limit 은 다음과 같은 상황에서 사용됨:</p>
 
-<p>Abbott: Oh, absolutely.</p>
+<ul>
+  <li>어떤 값이 특정한 지점으로 점점 가까워질 때 그 동작을 기술.</li>
+  <li>완벽히 도달하는 경우가 아닌 <strong><em>특정 값에 “무한히 가까워지는” 경우</em></strong> 를 다룸.</li>
+</ul>
 
-<p>Costello: The left fielder’s name?</p>
+<hr />
 
-<p>Abbott: Why.</p>
+<hr />
 
-<p>Costello: I don’t know, I just thought I’d ask.</p>
+<h2 id="sequence-의-극한">Sequence 의 극한</h2>
 
-<p>Abbott: Well, I just thought I’d tell you.</p>
+<p>Sequence $a_n$ 이  $L$ 에 converge(수렴)한다는 것은<br />
+$n$ 이 커질수록  $a_n$ 이  $L$ 에 점점 가까워짐을 의미함:</p>
 
-<p>Costello: Then tell me who’s playing left field?</p>
+\[\lim_{n \to \infty} a_n = L\]
 
-<p>Abbott: Who’s playing first.</p>
+<p>이는</p>
 
-<p>Costello: Stay out of the infield! The left fielder’s name?</p>
+<ul>
+  <li>임의의 작은 $\epsilon &gt; 0$ 에 대해 ($\forall \epsilon$)</li>
+  <li>$|a_n - L| &lt; \epsilon$ 을 만족하는 $n$ 이 존재함을 의미 ($\exists n$).</li>
+</ul>
 
-<p>Abbott: Why.</p>
+<hr />
 
-<p>Costello: Because.</p>
+<hr />
 
-<p>Abbott: Oh, he’s center field.</p>
+<h2 id="function-의-극한">Function 의 극한</h2>
 
-<p>Costello: Wait a minute. You got a pitcher on this team?</p>
+<p>Function f(x) 의 극한은 $x$ 가 특정 값 $a$ 에 가까워질 때<br />
+$f(x)$ 가 어떤 값  $L$ 에 가까워짐을 의미:</p>
 
-<p>Abbott: Wouldn’t this be a fine team without a pitcher?</p>
+\[\lim_{x \to a} f(x) = L\]
 
-<p>Costello: Tell me the pitcher’s name.</p>
+<p>즉,</p>
 
-<p>Abbott: Tomorrow.</p>
+<ul>
+  <li>$x$ 가  $a$ 에 가까워지면</li>
+  <li>$f(x)$ 는  $L$ 에 가까워짐.</li>
+</ul>
 
-<p>Costello: Now, when the guy at bat bunts the ball–me being a good catcher–I want to throw the guy out at first base, so I pick up the ball and throw it to who?</p>
+<hr />
 
-<p>Abbott: Now, that’s he first thing you’ve said right.</p>
+<hr />
 
-<p>Costello: I DON’T EVEN KNOW WHAT I’M TALKING ABOUT!</p>
+<h1 id="같이-보면-좋은-자료들">같이 보면 좋은 자료들</h1>
 
-<p>Abbott: Don’t get excited. Take it easy.</p>
+<ul>
+  <li><a href="/math/math-week03/">Week03</a></li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><category term="Limit" /><category term="Week03" /><summary type="html"><![CDATA[Limit 이란?]]></summary></entry><entry><title type="html">[Math] Week 02</title><link href="/math/math-week02/" rel="alternate" type="text/html" title="[Math] Week 02" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T16:47:25+00:00</updated><id>/math/math-week02</id><content type="html" xml:base="/math/math-week02/"><![CDATA[<h1 id="functions">Functions</h1>
 
-<p>Costello: I throw the ball to first base, whoever it is grabs the ball, so the guy runs to second. Who picks up the ball and throws it to what. What throws it to I don’t know. I don’t know throws it back to tomorrow–a triple play.</p>
+<h2 id="intro-of-functions">Intro. of Functions</h2>
 
-<p>Abbott: Yeah, it could be.</p>
+<ul>
+  <li><a href="https://dsaint31.tistory.com/215">Function</a></li>
+</ul>
 
-<p>Costello: Another guy gets up and it’s a long ball to center.</p>
+<h2 id="types-of-functions">Types of Functions</h2>
 
-<p>Abbott: Because.</p>
+<ul>
+  <li><a href="https://dsaint31.tistory.com/682">Type of Functions</a></li>
+</ul>
 
-<p>Costello: Why? I don’t know. And I don’t care.</p>
+<h2 id="important-functions">Important Functions</h2>
 
-<p>Abbott: What was that?</p>
+<h3 id="logistic-and-softmax">Logistic and Softmax</h3>
 
-<p>Costello: I said, I DON’T CARE!</p>
+<p>logistic function.</p>
 
-<p>Abbott: Oh, that’s our shortstop!</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="chat" /><category term="Post Formats" /><summary type="html"><![CDATA[Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.]]></summary></entry><entry><title type="html">Post: Modified Date</title><link href="/blog/post-modified/" rel="alternate" type="text/html" title="Post: Modified Date" /><published>2010-01-07T00:00:00+00:00</published><updated>2016-03-09T21:20:02+00:00</updated><id>/blog/post-modified</id><content type="html" xml:base="/blog/post-modified/"><![CDATA[<p>This post has been updated and should show a modified date if used in a layout.</p>
+<ul>
+  <li>binary classification에서 사용되며, 일종의 score를probability로 바꾸어줌.</li>
+  <li>activation function으로 heaviside function 를 대체하여</li>
+  <li>back-propagation이 DL에 적용되는데 공헌.</li>
+  <li>현재는 activation function으로는 많이 사용되지 않음 (ReLU에 의해 대체됨.)</li>
+</ul>
 
-<p>All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[This post has been updated and should show a modified date if used in a layout.]]></summary></entry><entry><title type="html">Post: Standard</title><link href="/blog/post-standard/" rel="alternate" type="text/html" title="Post: Standard" /><published>2010-01-07T00:00:00+00:00</published><updated>2010-01-07T00:00:00+00:00</updated><id>/blog/post-standard</id><content type="html" xml:base="/blog/post-standard/"><![CDATA[<p>All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.</p>
+<p>softmax function</p>
 
-<p>Mrs. Darling first heard of Peter when she was tidying up her children’s minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.</p>
+<ul>
+  <li>multi-class classification에서 사용되며, logistic function의 generalization임.</li>
+  <li>logistic function과 함께, classification을 위한 모델의 출력함수로 사용됨.</li>
+</ul>
 
-<!--more-->
+<hr />
 
-<p>This post has a manual excerpt <code class="language-plaintext highlighter-rouge">&lt;!--more--&gt;</code> set after the second paragraph. The following YAML Front Matter has also be applied:</p>
+<ul>
+  <li><a href="https://dsaint31.tistory.com/320">Logistic Function</a></li>
+  <li><a href="https://dsaint31.tistory.com/294">Softmax Function</a></li>
+  <li><a href="https://dsaint31.tistory.com/319">From Softmax to Logistic</a></li>
+</ul>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="na">excerpt_separator</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;!--more--&gt;"</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+<h3 id="logarithmic-function-and-exponential-function">Logarithmic Function and Exponential Function</h3>
 
-<p>If you could keep awake (but of course you can’t) you would see your own mother doing this, and you would find it very interesting to watch her. It is quite like tidying up drawers. You would see her on her knees, I expect, lingering humorously over some of your contents, wondering where on earth you had picked this thing up, making discoveries sweet and not so sweet, pressing this to her cheek as if it were as nice as a kitten, and hurriedly stowing that out of sight. When you wake in the morning, the naughtiness and evil passions with which you went to bed have been folded up small and placed at the bottom of your mind and on the top, beautifully aired, are spread out your prettier thoughts, ready for you to put on.</p>
+<p>Log 의 경우, ML과 DL에서 주로 확률과 함께 많이 사용됨.</p>
 
-<p>I don’t know whether you have ever seen a map of a person’s mind. Doctors sometimes draw maps of other parts of you, and your own map can become intensely interesting, but catch them trying to draw a map of a child’s mind, which is not only confused, but keeps going round all the time. There are zigzag lines on it, just like your temperature on a card, and these are probably roads in the island, for the Neverland is always more or less an island, with astonishing splashes of colour here and there, and coral reefs and rakish-looking craft in the offing, and savages and lonely lairs, and gnomes who are mostly tailors, and caves through which a river runs, and princes with six elder brothers, and a hut fast going to decay, and one very small old lady with a hooked nose. It would be an easy map if that were all, but there is also first day at school, religion, fathers, the round pond, needle-work, murders, hangings, verbs that take the dative, chocolate pudding day, getting into braces, say ninety-nine, three-pence for pulling out your tooth yourself, and so on, and either these are part of the island or they are another map showing through, and it is all rather confusing, especially as nothing will stand still.</p>
+<ul>
+  <li>Entropy 나 Likelihood 계산에서 이용됨.</li>
+  <li>작은 확률값으로 발생하는 문제를 개선 (작은 범위의 값에 민감)</li>
+  <li>확률의 곱을 덧셈으로 바꿔줌.</li>
+</ul>
 
-<p>Of course the Neverlands vary a good deal. John’s, for instance, had a lagoon with flamingoes flying over it at which John was shooting, while Michael, who was very small, had a flamingo with lagoons flying over it. John lived in a boat turned upside down on the sands, Michael in a wigwam, Wendy in a house of leaves deftly sewn together. John had no friends, Michael had friends at night, Wendy had a pet wolf forsaken by its parents, but on the whole the Neverlands have a family resemblance, and if they stood still in a row you could say of them that they have each other’s nose, and so forth. On these magic shores children at play are for ever beaching their coracles [simple boat]. We too have been there; we can still hear the sound of the surf, though we shall land no more.</p>
+<p>Exponential 의 경우는</p>
 
-<p>Of all delectable islands the Neverland is the snuggest and most compact, not large and sprawly, you know, with tedious distances between one adventure and another, but nicely crammed. When you play at it by day with the chairs and table-cloth, it is not in the least alarming, but in the two minutes before you go to sleep it becomes very real. That is why there are night-lights.</p>
+<ul>
+  <li>Sigmoids의 대표인 Logistic 에서 활용됨: Classification 의 출력.</li>
+  <li>Gaussian Distribution에서도 사용되고,</li>
+  <li>무엇보다 미적분 연산에 대해 Eigen function이라는 장점을 가져 공학적 활용도가 높음.</li>
+  <li>learning rate 조정에서도 핵심적인 역할.</li>
+</ul>
 
-<p>Occasionally in her travels through her children’s minds Mrs. Darling found things she could not understand, and of these quite the most perplexing was the word Peter. She knew of no Peter, and yet he was here and there in John and Michael’s minds, while Wendy’s began to be scrawled all over with him. The name stood out in bolder letters than any of the other words, and as Mrs. Darling gazed she felt that it had an oddly cocky appearance.</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end. Mrs. Darling first heard of Peter when she was tidying up her children’s minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.]]></summary></entry></feed>
+<hr />
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/578">Logarithmic Functions</a></li>
+  <li><a href="https://dsaint31.tistory.com/683">Exponential Functions</a></li>
+  <li><a href="https://dsaint31.tistory.com/692">참고: Limits of Log and Exponetials</a></li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><summary type="html"><![CDATA[Functions]]></summary></entry><entry><title type="html">[Math] Week 03</title><link href="/math/math-week03/" rel="alternate" type="text/html" title="[Math] Week 03" /><published>2025-01-01T00:00:00+00:00</published><updated>2025-01-01T00:00:00+00:00</updated><id>/math/math-week03</id><content type="html" xml:base="/math/math-week03/"><![CDATA[<h2 id="limit-and-continuity">Limit and Continuity</h2>
+
+<ul>
+  <li><a href="/math/math-limit/"><code class="language-plaintext highlighter-rouge">Limit</code>: Intro.</a></li>
+  <li><a href="https://dsaint31.tistory.com/687">Limit of Scalar Function</a></li>
+  <li><a href="https://dsaint31.tistory.com/536">Limit of Multi-Variable Func.</a></li>
+  <li><a href="https://dsaint31.tistory.com/537">Limit Laws of Multi-Variate Function and Limit Point</a></li>
+  <li><a href="https://dsaint31.tistory.com/538">Continuity and Contiguity</a></li>
+  <li><a href="https://dsaint31.tistory.com/688">Interval</a></li>
+</ul>
+
+<h2 id="derivative-or-differentiation">Derivative (or Differentiation)</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/695">Continuity and Differentiable</a></li>
+  <li><a href="https://dsaint31.tistory.com/540">Differentiation and Difference</a></li>
+  <li><a href="https://dsaint31.tistory.com/691">Key Rules of Differentiation</a></li>
+  <li><a href="https://dsaint31.tistory.com/693">Derivatives of Exponential and Logarithmic Functions</a></li>
+  <li><a href="https://dsaint31.tistory.com/541">Partial Derivatives</a></li>
+  <li><a href="https://dsaint31.tistory.com/543">Gradient</a></li>
+  <li><a href="https://dsaint31.tistory.com/542">Directional Derivative</a></li>
+  <li><a href="https://dsaint31.tistory.com/544">Chain Rule</a></li>
+</ul>
+
+<h2 id="integral">Integral</h2>
+
+<ul>
+  <li><a href="/math/math-integral/"><code class="language-plaintext highlighter-rouge">Integral</code> and <code class="language-plaintext highlighter-rouge">Fundamental Theorem of Calculus</code></a></li>
+</ul>
+
+<h2 id="theorem">Theorem</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/689"><code class="language-plaintext highlighter-rouge">Intermediate Value Theorem</code>, <code class="language-plaintext highlighter-rouge">Mean Value Theorem</code> and <code class="language-plaintext highlighter-rouge">Rolle’s Theorem</code></a></li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><summary type="html"><![CDATA[Limit and Continuity]]></summary></entry><entry><title type="html">[Math] Factorization</title><link href="/math/math-fatorization/" rel="alternate" type="text/html" title="[Math] Factorization" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>/math/math-fatorization</id><content type="html" xml:base="/math/math-fatorization/"><![CDATA[<h2 id="factorization">Factorization</h2>
+
+<p>수학에서 Entity를 좀더 간단한 entities의 곱(factors의 곱)으로 분해하는 것을 가리킴.</p>
+
+<p>대표적으로 다음과 같은 Factorization이 있음.</p>
+
+<h3 id="integer-factorization">Integer Factorization</h3>
+
+<p>Integer (or Composite Number)를 소수(Prime Number)의 곱으로 분해하는 것.</p>
+
+\[15 = 3 \times 5\]
+
+<h3 id="polynomial-factorization">Polynomial Factorization</h3>
+
+<p>Algebra에서 Polynomials(다항식)을 lower-degree polynomials의 곱으로 분해하는 것.</p>
+
+<h3 id="matrix-factorization">Matrix Factorization</h3>
+
+<p>Linear Algebra에서 matrix를 여러 matrix의 곱으로 분해하는 것.</p>
+
+<p>수치해석에서 기본적이며, 선형 시스템 해결, 고유값 문제 등 다양한 분야에 응용됨.</p>
+
+<ul>
+  <li>LR Factorization: 행렬을 하삼각 행렬(<code class="language-plaintext highlighter-rouge">L</code>)과 상삼각 행렬(<code class="language-plaintext highlighter-rouge">U</code>)의 곱으로 분해</li>
+  <li>QR Factorization: 행렬을 직교 행렬(<code class="language-plaintext highlighter-rouge">Q</code>)과 상삼각 행렬(<code class="language-plaintext highlighter-rouge">R</code>)의 곱으로 분해</li>
+  <li><a href="https://dsaint31.tistory.com/657">SVD (Singular Value Decomposition)</a>: 행렬을 두 개의 직교 행렬과 하나의 대각 행렬의 곱으로 표현</li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><summary type="html"><![CDATA[Factorization]]></summary></entry><entry><title type="html">[Math] Powers</title><link href="/math/math-powers/" rel="alternate" type="text/html" title="[Math] Powers" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>/math/math-powers</id><content type="html" xml:base="/math/math-powers/"><![CDATA[<h2 id="powers">Powers</h2>
+
+<p>수학에서 <code class="language-plaintext highlighter-rouge">Power</code>(거듭제곱)은</p>
+
+<ul>
+  <li>어떤 수나 식을 자신과 반복적으로 곱하는 연산을 의미</li>
+  <li>이는 <strong>지수</strong> (<code class="language-plaintext highlighter-rouge">exponent</code>)와 <strong>밑</strong> (<code class="language-plaintext highlighter-rouge">base</code>)으로 구성되며,</li>
+  <li>일반적으로 $a^n$ 의 형태로 표현.
+    <ul>
+      <li>$a$: <code class="language-plaintext highlighter-rouge">base</code>, 반복해서 곱해지는 number나 expression을 의미.</li>
+      <li>$n$: <code class="language-plaintext highlighter-rouge">exponent</code>, <code class="language-plaintext highlighter-rouge">base</code>가 몇 번 곱해지는지를 나타내는 number.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="properties">Properties</h2>
+
+<ul>
+  <li>$a^1=a$: exponent가 1이면 base 그대로 ($0^0= 0$)</li>
+  <li>$a^0=1$: 수학적으로는 $a\ne 0$ 인 경우에만 정의되나, 프로그래머 입장에선 $0^0=1$인 경우가 많음(built-in operations에서).</li>
+  <li>$0^n=0$</li>
+  <li>$a^{-n}=\frac{1}{a}$: $a \ne 0$</li>
+  <li>$a^m a^n=a^{m+n}$</li>
+  <li>$\frac{a^m}{a^n}=a^{m-n}$</li>
+  <li>$(a^m)^n=a^{mn}$</li>
+  <li>$(x \times y)^n=x^ny^n$</li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><summary type="html"><![CDATA[Powers]]></summary></entry><entry><title type="html">[Math] Week 01</title><link href="/math/math-week01/" rel="alternate" type="text/html" title="[Math] Week 01" /><published>2024-12-31T00:00:00+00:00</published><updated>2024-12-31T15:31:15+00:00</updated><id>/math/math-week01</id><content type="html" xml:base="/math/math-week01/"><![CDATA[<h1 id="basic">Basic</h1>
+
+<h2 id="type-of-numbers">Type of Numbers</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/336">Type of Numbers</a></li>
+</ul>
+
+<h2 id="algebra-and-operations">Algebra and Operations</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/780">What Algebra is</a></li>
+  <li><a href="https://dsaint31.me/mkdocs_site/CE/ch01/ch01_00_data_representation/#4-operations">What Operation is</a></li>
+  <li><a href="https://dsaint31.tistory.com/781">Identity and Inverse</a></li>
+</ul>
+
+<h2 id="logic">Logic</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/337">Definition, Proposition, Axiom, and Theorem</a></li>
+  <li><a href="/math/math-logic/">Logic</a></li>
+</ul>
+
+<h2 id="other-basic-terminologies">Other Basic Terminologies</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/674">Variables and Variates</a></li>
+  <li><a href="https://dsaint31.tistory.com/670">root, equality, expression, equations</a></li>
+</ul>
+
+<h2 id="class-set-and-relation">Class, Set, and Relation</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/679">Class, Proper Class, and Set</a></li>
+  <li><a href="https://dsaint31.tistory.com/654">Cartesian Product and Product Set</a></li>
+  <li><a href="https://dsaint31.tistory.com/680">Relation</a></li>
+</ul>
+
+<h2 id="function-simple">Function (Simple)</h2>
+
+<ul>
+  <li><a href="https://dsaint31.tistory.com/215">Function</a></li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><summary type="html"><![CDATA[Basic]]></summary></entry><entry><title type="html">[Math] Logic: Tautologies and Contradictions</title><link href="/math/math-tautologies/" rel="alternate" type="text/html" title="[Math] Logic: Tautologies and Contradictions" /><published>2024-12-23T00:00:00+00:00</published><updated>2024-12-24T03:20:02+00:00</updated><id>/math/math-tautologies</id><content type="html" xml:base="/math/math-tautologies/"><![CDATA[<p>항상 참인 연산과 항상 거짓인 propositions (or operations)를 가리킴.</p>
+
+<h2 id="tautologies">Tautologies</h2>
+
+<p>언제나 참인 propositions.</p>
+
+<p><strong>항진명제</strong> 라고도 불림.</p>
+
+<ul>
+  <li>$q \lor \neg q$</li>
+  <li>$[p \implies q] \land [q \implies r]$: 3단 논법(?)</li>
+</ul>
+
+<h2 id="contradictions">Contradictions</h2>
+
+<p>언제나 거짓.</p>
+
+<p><strong>모순명제</strong> 라고 불림.</p>
+
+<ul>
+  <li>$p \land \neg q$</li>
+  <li>$(p \lor q)\land [(\neg p) \land (\neg q)]$</li>
+</ul>
+
+<hr />
+
+<hr />
+
+<h2 id="같이보면-좋은-자료들">같이보면 좋은 자료들</h2>
+
+<ul>
+  <li><a href="/math/math-week01/#logic">Week01</a></li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><category term="Tautology" /><category term="Contradiction" /><summary type="html"><![CDATA[항상 참인 연산과 항상 거짓인 propositions (or operations)를 가리킴.]]></summary></entry><entry><title type="html">[Math] Logic</title><link href="/math/math-logic/" rel="alternate" type="text/html" title="[Math] Logic" /><published>2024-12-22T00:00:00+00:00</published><updated>2024-12-10T03:20:02+00:00</updated><id>/math/math-logic</id><content type="html" xml:base="/math/math-logic/"><![CDATA[<h2 id="propositions">Propositions</h2>
+
+<h4 id="conditions">Conditions</h4>
+
+<p>variable에 따라 True, False 가 달라지는 expression.</p>
+
+\[x^2 = 4\]
+
+<ul>
+  <li>$x= \pm 2$ 이면 True.</li>
+  <li>otherwise: False</li>
+</ul>
+
+<p>비교: true/false propositions</p>
+<ul>
+  <li>true proposition: 항상 true.</li>
+  <li>false proposition: 항상 false.</li>
+</ul>
+
+<h4 id="truth-sets">Truth Sets</h4>
+
+<p>어떤 condition을 만족하는 element들로 구성된 set.</p>
+
+<p>condition이 정해지면, truth set이 지정됨.</p>
+
+<blockquote>
+  <p>condition을 통해 set이 정해짐.</p>
+</blockquote>
+
+<h2 id="logical-operations">Logical Operations</h2>
+
+<p><strong>Unary Operations</strong></p>
+
+<ul>
+  <li>$\neg$ : Logical Negation</li>
+</ul>
+
+<p><strong>Binary Operations</strong></p>
+
+<ul>
+  <li>$\land$ : Logical Conjunction (= <code class="language-plaintext highlighter-rouge">and</code>)</li>
+  <li>$\lor$ : Logical Disjunction (= <code class="language-plaintext highlighter-rouge">or</code>)</li>
+  <li>$\implies$ : Logical Implication</li>
+  <li>$\oplus$ : Logical Exclusive Disjunction (= <code class="language-plaintext highlighter-rouge">xor</code>)</li>
+</ul>
+
+<p>참고: <a href="https://dsaint31.me/mkdocs_site/CE/ch01/ch01_13_boolean_algebra/#symbols-and-truth-table">Truth Table</a></p>
+
+<h4 id="logical-implications">Logical Implications</h4>
+
+<p>Truth Table of Logical Implication</p>
+
+<blockquote>
+  <p>cause $p$가 False 경우 무조건 True임.</p>
+
+  <p>무죄 추정의 원칙?</p>
+</blockquote>
+
+\[p \implies q\]
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">$p$</th>
+      <th style="text-align: center">$q$</th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">False</td>
+      <td style="text-align: center">False</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+      <td style="text-align: center">True</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sufficiency-and-necessity">Sufficiency and Necessity</h4>
+<p>참고: <a href="https://dsaint31.tistory.com/314">Sufficiency and Necessity</a></p>
+
+<h4 id="converse-contrapositive-inverse">Converse, Contrapositive, Inverse</h4>
+
+\[p \implies q\]
+
+<ul>
+  <li><strong>converse (역)</strong>: $q\implies p$</li>
+  <li><strong>inverse (부정)</strong>: $\neg p \implies \neg q$</li>
+  <li><strong>contrapositive (대우)</strong>: $\neg q \implies \neg q$</li>
+</ul>
+
+<h2 id="all-and-existent">All and Existent</h2>
+
+<h4 id="for-all-forall">For All $\forall$</h4>
+
+<p>$\forall x, p$: 모든 $x$ 에 대해 $p$가 만족함.</p>
+
+<ul>
+  <li>$\forall x, 0x = 0$</li>
+  <li>$\forall x \text{ except }x=0, x\frac{1}{x}=1$</li>
+</ul>
+
+<h4 id="there-exists-exists">There Exists $\exists$</h4>
+
+<p>$\exists x, q$: 최소한 하나 이상의 $x$에서 $q$가 만족함.</p>
+
+<ul>
+  <li>$\exists x, x+3 = 0$</li>
+  <li>$\exists x, x^2=1$</li>
+</ul>
+
+<h4 id="identities-and-inverses">Identities and Inverses</h4>
+
+<p>Additive Identities and Inverse</p>
+
+\[\begin{aligned} \forall x, \exists a, x+a =x &amp; \implies a=0 \\ \forall x, \exists a, x+a = 0 &amp;\implies a=-x \end{aligned}\]
+
+<p>Multiplicative Identities and Inverse</p>
+
+\[\begin{aligned} \forall x \text{ except } x=0, \exists a, xa=x &amp;\implies a=1 \\ \forall x \text{ except } x=0, \exists a, xa=1 &amp;\implies a=x^{-1} \end{aligned}\]
+
+<h2 id="logical-computations">Logical Computations</h2>
+
+<h4 id="commutativity">Commutativity</h4>
+
+<p>교환법칙</p>
+
+<ul>
+  <li>$p \land q \iff q \land p$</li>
+  <li>$p \lor q \iff q \land p$</li>
+</ul>
+
+<h4 id="associativity">Associativity</h4>
+
+<p>결합법칙</p>
+
+<ul>
+  <li>$(p \land q) \land r \iff p \land (q \land r)$</li>
+  <li>$(p \lor q) \lor r \iff p \lor (q \lor r)$</li>
+</ul>
+
+<h4 id="distributivity">Distributivity</h4>
+
+<p>분배접칙</p>
+
+<ul>
+  <li>$p \land (q \lor r) \iff (p \land q) \lor (p \land r)$</li>
+  <li>
+    <p>$p \lor (q \land r) \iff (p \lor q) \land (p \lor r)$</p>
+  </li>
+  <li>$(p \implies q) \iff (\neg q \implies \neg p)$</li>
+  <li>$(p \oplus q) \iff [{p \land (\neg q)} \lor { (\neg p) \land q } ]$</li>
+</ul>
+
+<hr />
+
+<hr />
+
+<h2 id="같이보면-좋은-자료들">같이보면 좋은 자료들</h2>
+
+<ul>
+  <li>참고: <a href="https://dsaint31.me/mkdocs_site/CE/ch01/ch01_13_boolean_algebra/#de-morgans-law">De Morgan’s Law</a></li>
+  <li><a href="/math/math-week01/#logic">Week01</a></li>
+</ul>]]></content><author><name>First Lastname</name></author><category term="Math" /><summary type="html"><![CDATA[Propositions]]></summary></entry></feed>

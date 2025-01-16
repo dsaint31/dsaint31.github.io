@@ -1,0 +1,133 @@
+<h2 id="github-pages">GitHub Pages</h2>
+
+<p>GitHub를 통해 제공되는 static web site 호스팅서비스.</p>
+
+<ul>
+  <li>자신의 repository 에서 특정 branch 또는 directory의 markdown files를 기반으로 정적(static) site를 생성.</li>
+  <li>Jekyll 와 markdown을 기반으로 동작함.</li>
+</ul>
+
+<h2 id="만들기">만들기.</h2>
+
+<ol>
+  <li>GitHub 계정이 있어야 함.</li>
+  <li>New Repository를 생성
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">[username].github.io</code> 라는 이름으로 repository를 생성: <code class="language-plaintext highlighter-rouge">[username]</code> 을 자신의 계정명으로 변경.</li>
+      <li><code class="language-plaintext highlighter-rouge">dsaint31x</code>가 계정명이면, <code class="language-plaintext highlighter-rouge">dsaint31.github.io</code>가 됨.</li>
+      <li><code class="language-plaintext highlighter-rouge">README.md</code>를 생성하는 것을 클릭하여 생성.</li>
+      <li><img src="../imgs/github_rep_name.png" alt="" class="align-center" /></li>
+      <li><img src="/assets/images/github_rep_name.png" alt="" class="align-center" /></li>
+    </ul>
+  </li>
+  <li>Repository 이름 밑의 메뉴들 중 오른쪽의 톱니모양 아이콘의 <code class="language-plaintext highlighter-rouge">Settings</code> (설정)을 클릭.</li>
+  <li>Sidebar (왼쪽) 에서 <code class="language-plaintext highlighter-rouge">Code and automation</code> 파트에 <code class="language-plaintext highlighter-rouge">Pages</code>를 클릭.</li>
+  <li><code class="language-plaintext highlighter-rouge">Build and deployment</code> 에서 <code class="language-plaintext highlighter-rouge">Source</code>를 <code class="language-plaintext highlighter-rouge">Deploy from a branch</code> 를 선택: 특정 branch에서 웹페이지를 생성하도록.</li>
+  <li><code class="language-plaintext highlighter-rouge">Build and deployment</code> 에서 <code class="language-plaintext highlighter-rouge">Branch</code>를 <code class="language-plaintext highlighter-rouge">None</code>에서 <code class="language-plaintext highlighter-rouge">main</code>으로 변경하고 <code class="language-plaintext highlighter-rouge">Save</code> 클릭.</li>
+</ol>
+
+<blockquote>
+  <p>2번에서 애기한 repository 이름을 다른  repository 이름으로 사용하면, <code class="language-plaintext highlighter-rouge">[username].github.io/[repository이름]</code> 의 경로가 호스팅 되는 url이 됨.</p>
+</blockquote>
+
+<h2 id="파일-내용-만들기">파일 내용 만들기.</h2>
+
+<p>Jekyll 테마를 remote theme로 적용하면 우선 쉽게 시작할 수 있음.</p>
+
+<h3 id="1-_configyml-을-생성">1. <code class="language-plaintext highlighter-rouge">_config.yml</code> 을 생성.</h3>
+
+<p>repository의 root directory에 생성(=추가).</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>
+<span class="na">remote_theme</span><span class="pi">:</span> <span class="s2">"</span><span class="s">mmistakes/minimal-mistakes"</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Octocat's homepage</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">Bookmark this to keep an eye on my project updates!</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="2-gemfile-을-생성">2. <code class="language-plaintext highlighter-rouge">Gemfile</code> 을 생성.</h3>
+
+<p>repository의 root directory에 생성(=추가)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>source "https://rubygems.org"
+
+gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="3-indexhtml-을-생성">3. <code class="language-plaintext highlighter-rouge">index.html</code> 을 생성.</h3>
+
+<p>repository의 root directory에 생성(=추가)</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>---
+layout: home
+author_profile: true
+---
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="4-_posts-디렉토리를-생성">4. <code class="language-plaintext highlighter-rouge">_posts</code> 디렉토리를 생성.</h3>
+
+<p>GitHub에서 <code class="language-plaintext highlighter-rouge">_posts/YYYY-mm-dd-[제목].md</code> 를 생성.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">[제목]</code> 을 적절한 문자열로 교체 (영문추천)</li>
+</ul>
+
+<p>다음과 같이 기재</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Hello</span><span class="nv"> </span><span class="s">World"</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2024-12-21 21:30:45 +0900</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="s">remote theme test</span>
+<span class="nn">---</span>
+
+<span class="gu">## Remote Theme Test</span>
+
+Hello World!  
+Hello Jekyll!  
+Hello Markdown
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">title</code> : 글의 제목</li>
+  <li><code class="language-plaintext highlighter-rouge">date</code> : 글을 기재한 날짜.</li>
+  <li><code class="language-plaintext highlighter-rouge">categories</code> : 카테고리.</li>
+</ul>
+
+<p>아래 부분은 본문에 해당함.</p>
+
+<h2 id="그-외">그 외.</h2>
+
+<p>아래 Minimal Mistakes remote theme starter 를 이용하면 보다 간단함.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><a href="https://docs.github.com/ko/pages/quickstart">GitHub Docs: GitHub Pages 빠른시작</a></li>
+  <li><a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method">Minimal Mistakes: Remote Theme</a></li>
+  <li><a href="https://github.com/new?template_name=mm-github-pages-starter&amp;template_owner=mmistakes">Minimal Mistakes remote theme starter</a></li>
+</ul>
