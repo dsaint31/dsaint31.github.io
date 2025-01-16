@@ -145,6 +145,6 @@ sass:
     - _sass
     - node_modules
   add:
-    - assets/css/custom-styles.scss
+    - assets/css/main.scss
 
 
