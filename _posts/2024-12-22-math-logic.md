@@ -71,7 +71,7 @@ $$p \implies q$$
 
 * **converse (역)**: $q\implies p$
 * **inverse (부정)**: $\neg p \implies \neg q$
-* **contrapositive (대우)**: $\neg q \implies \neg q$
+* **contrapositive (대우)**: $\neg q \implies \neg p$
 
 ## All and Existent
 
@@ -117,7 +117,7 @@ $$\begin{aligned} \forall x \text{ except } x=0, \exists a, xa=x &\implies a=1 \
 
 #### Distributivity
 
-분배접칙
+분배법칙
 
 * $p \land (q \lor r) \iff (p \land q) \lor (p \land r)$
 * $p \lor (q \land r) \iff (p \lor q) \land (p \lor r)$
