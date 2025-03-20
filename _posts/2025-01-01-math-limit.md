@@ -10,7 +10,7 @@ tags:
 
 # Limit 이란?
 
-**Llimit**은 수학에서 
+**Limit**은 수학에서 
 
 * Function (함수),
 * Sequence (수열) 또는
