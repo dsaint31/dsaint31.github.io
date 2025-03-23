@@ -83,7 +83,7 @@ $$
 ## 미적분의 제1기본정리
 
 Function $f: [a,b] \rightarrow \mathbb{R}$가 연속인 경우,  
-function $g: [a,b] \rightarrow \mathbb{R}$을 다음과 같이 정의하자.
+Function $g: [a,b] \rightarrow \mathbb{R}$을 다음과 같이 정의하자.
 
 $$
 g(x)=\int^x_af(t)dt
@@ -103,7 +103,7 @@ $$
 
 > 처음에 주어진 함수 $f$의 정적분을 이용하여  
 > 정의한 함수 $g$ ($g$~정적분의 결과)가  
-> 바로 $f$의 부정적분들 중 하나 임을 의미. 
+> **$f$의 부정적분들 중 하나** 임을 의미. 
 >
 > * Definite Integral (정적분)이라는 Function의 성질을 규명: 
 > * 바로 Definite Integral은 Indefinite Integral의 하나임.
