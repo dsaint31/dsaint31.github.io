@@ -25,7 +25,9 @@ Derivative(도함수)가 Function의 순간적인(or 지역적인) 변화율을 
 # 부정적분(Indefinite Integral)
 
 $$
-F(x)=\int{f(x) dx}$$
+F(x)=\int{f(x) dx}
+$$
+
 $$
 f(x)=\dfrac{d}{dx}F(x)
 $$
