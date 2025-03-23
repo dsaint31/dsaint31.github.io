@@ -43,7 +43,7 @@ $$
 
 리만적분 (Riemann Integral, Limit of Riemann Sum) 으로 근사화하여 구할 수 있음.
 
-![](/assets/images/integral_riemann.gif)
+![](/assets/images/integral_riemann.gif){:style="display: block; margin: 0 auto; width: 350px;"}
 
 - 어느 폐구간(closed interval)의 실수값 함수 $f(x)$ 아래의 area를 구함.
 - (무수히 많은 직사각형의) Riemann sum은 definite integral의 근사치를 구하게 해줌.
